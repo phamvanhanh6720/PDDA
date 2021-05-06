@@ -1,0 +1,599 @@
+disease_id,name,alias
+D015746,Abdominal Pain,Abdominal Pain#Colicky Pain
+D000014,"Abnormalities, Drug-Induced","Abnormalities, Drug-Induced#Drug-Induced Abnormalities"
+D000015,"Abnormalities, Multiple","Abnormalities, Multiple#Multiple Abnormalities"
+D000138,Acidosis,Acidosis#Metabolic Acidosis
+D000140,"Acidosis, Lactic","Acidosis, Lactic#Lactic Acidosis"
+D000152,Acne Vulgaris,Acne#Acne Vulgaris
+D054058,Acute Coronary Syndrome,Acute Coronary Syndrome
+D058186,Acute Kidney Injury,"Acute Kidney Failure#Acute Kidney Injury#Acute Kidney Insufficiency#Acute Renal Failure#Acute Renal Injury#Acute Renal Insufficiency#Kidney Failure, Acute#Kidney Insufficiency, Acute#Renal Failure, Acute#Renal Insufficiency, Acute"
+D000230,Adenocarcinoma,"Adenocarcinoma#Adenocarcinoma, Basal Cell#Adenocarcinoma, Granular Cell#Adenocarcinoma, Oxyphilic#Adenocarcinoma, Tubular#Adenoma, Malignant#Carcinoma, Cribriform#Carcinoma, Granular Cell#Carcinoma, Tubular"
+C538231,Adenocarcinoma of lung,Adenocarcinoma of lung#Lung adenocarcinoma
+D000236,Adenoma,"Adenoma#Adenoma, Basal Cell#Adenoma, Follicular#Adenoma, Microcystic#Adenoma, Monomorphic#Adenoma, Papillary#Adenoma, Trabecular"
+D000341,"Affective Disorders, Psychotic","Affective Disorders, Psychotic#Depression, Reactive, Psychotic#Mood Disorders, Psychotic#Psychoses, Affective#Psychotic Affective Disorders#Psychotic Mood Disorders"
+D000380,Agranulocytosis,Agranulocytosis#Granulocytopenia
+D017109,"Akathisia, Drug-Induced","Acathisia, Drug-Induced#Akathisia, Drug-Induced#Akathisia, Tardive#Drug-Induced Akathisia#Pseudoakathisia"
+D000419,Albuminuria,Albuminuria
+D000505,Alopecia,"Alopecia#Alopecia Cicatrisata#Alopecia, Androgenetic#Alopecia, Male Pattern#Androgenetic Alopecia#Androgenic Alopecia#Baldness#Baldness, Male Pattern#Female Pattern Baldness#Hair Loss#Male Pattern Baldness#Pattern Baldness#Pseudopelade"
+D000544,Alzheimer Disease,"Acute Confusional Senile Dementia#Alzheimer Dementia (AD)#Alzheimer Disease#Alzheimer Disease, Early Onset#Alzheimer Disease, Late Onset#Alzheimer Sclerosis#Alzheimer Syndrome#Alzheimer Type Senile Dementia#Alzheimer's Disease#Alzheimer's Disease, Focal Onset#Alzheimer-Type Dementia (ATD)#Dementia, Alzheimer Type#Dementia, Presenile#Dementia, Primary Senile Degenerative#Dementia, Senile#Early Onset Alzheimer Disease#Familial Alzheimer Disease (FAD)#Focal Onset Alzheimer's Disease#Late Onset Alzheimer Disease#Presenile Alzheimer Dementia#Primary Senile Degenerative Dementia#Senile Dementia, Acute Confusional#Senile Dementia, Alzheimer Type"
+D000647,Amnesia,"Amnesia#Amnesia, Dissociative#Amnesia, Global#Amnesia, Hysterical#Amnesia, Tactile#Amnesia, Temporary#Amnesia-Memory Loss#Amnestic State"
+D019969,Amphetamine-Related Disorders,Amphetamine Abuse#Amphetamine Addiction#Amphetamine Dependence#Amphetamine-Related Disorders
+D000707,Anaphylaxis,"Anaphylactic Reaction#Anaphylaxis#Shock, Anaphylactic"
+D000740,Anemia,Anemia
+D000741,"Anemia, Aplastic","Anemia, Aplastic#Anemia, Hypoplastic#Aplastic Anemia"
+D000743,"Anemia, Hemolytic","Anemia, Hemolytic#Anemia, Hemolytic, Acquired#Anemia, Microangiopathic#Hemolytic Anemia#Hemolytic Anemia, Acquired#Microangiopathic Hemolytic Anemia"
+D000744,"Anemia, Hemolytic, Autoimmune","Acquired Autoimmune Hemolytic Anemia#Anemia, Hemolytic, Autoimmune#Anemia, Hemolytic, Cold Antibody#Anemia, Hemolytic, Idiopathic Acquired#Autoimmune Hemolytic Anemia#Cold Agglutinin Disease#Cold Antibody Disease#Cold Antibody Hemolytic Anemia#Hemolytic Anemia, Autoimmune#Idiopathic Autoimmune Hemolytic Anemia"
+D000749,"Anemia, Megaloblastic","Anemia, Megaloblastic"
+D000787,Angina Pectoris,Angina Pectoris#Angor Pectoris#Stenocardia
+D000799,Angioedema,"Angioedema#Angioneurotic Edema#Quincke's Edema#Urticaria, Giant"
+D000855,Anorexia,Anorexia
+D001002,Anuria,Anuria
+D001008,Anxiety Disorders,"Anxiety Disorders#Anxiety Neuroses#Anxiety States, Neurotic#Neuroses, Anxiety"
+D001037,Aphasia,"Alogia#Anepia#Aphasia#Aphasia, Acquired#Aphasia, Ageusic#Aphasia, Auditory Discriminatory#Aphasia, Commisural#Aphasia, Functional#Aphasia, Global#Aphasia, Graphomotor#Aphasia, Intellectual#Aphasia, Mixed#Aphasia, Post-Ictal#Aphasia, Post-Traumatic#Aphasia, Progressive#Aphasia, Semantic#Aphasia, Syntactical#Dejerine-Lichtheim Phenomenon#Dysphasia#Dysphasia, Global#Lichtheim's Sign#Logagnosia#Logamnesia#Logasthenia"
+D001049,Apnea,Apnea
+D001145,"Arrhythmias, Cardiac","Arrhythmia#Arrhythmias, Cardiac#Arrythmia#Cardiac Arrhythmia#Cardiac Arrhythmias#Cardiac Dysrhythmia"
+D001157,Arterial Occlusive Diseases,Arterial Obstructive Diseases#Arterial Occlusive Diseases
+D001161,Arteriosclerosis,Arteriosclerosis
+D018771,Arthralgia,Arthralgia#Joint Pain#Polyarthralgia
+D001168,Arthritis,Arthritis#Polyarthritis
+D001169,"Arthritis, Experimental","Adjuvant Arthritis#Arthritis, Adjuvant#Arthritis, Adjuvant-Induced#Arthritis, Collagen-Induced#Arthritis, Experimental#Collagen Arthritis"
+D001172,"Arthritis, Rheumatoid","Arthritis, Rheumatoid#Rheumatoid Arthritis"
+D001201,Ascites,Ascites
+D001247,Asthenia,Asthenia
+D001249,Asthma,"Asthma#Asthma, Bronchial#Bronchial Asthma"
+D001259,Ataxia,"Ataxia#Ataxia, Appendicular#Ataxia, Limb#Ataxia, Motor#Ataxia, Sensory#Ataxia, Truncal#Ataxy#Coordination Impairment#Dyscoordination#Dyssynergia#Incoordination#Lack of Coordination#Tremor, Rubral"
+D050197,Atherosclerosis,Atherogenesis#Atherosclerosis
+D001264,Athetosis,Athetoid Movements#Athetosis#Hammond Disease#Hammond's Disease
+D001281,Atrial Fibrillation,Atrial Fibrillation#Auricular Fibrillation#Familial Atrial Fibrillation#Paroxysmal Atrial Fibrillation#Persistent Atrial Fibrillation
+D001282,Atrial Flutter,Atrial Flutter#Auricular Flutter
+D054537,Atrioventricular Block,Atrioventricular Block#Atrioventricular Conduction Block#AV Block
+D001284,Atrophy,Atrophy
+D001289,Attention Deficit Disorder with Hyperactivity,"ADDH#Attention Deficit Disorder#Attention Deficit Disorder with Hyperactivity#Attention Deficit Disorders with Hyperactivity#Attention Deficit Hyperactivity Disorder#Attention Deficit Hyperactivity Disorders#Attention Deficit-Hyperactivity Disorder#Brain Dysfunction, Minimal#Hyperkinetic Syndrome#Minimal Brain Dysfunction"
+D001321,Autistic Disorder,"Autism#Autism, Early Infantile#Autism, Infantile#Autistic Disorder#Kanner's Syndrome"
+D001327,Autoimmune Diseases,Autoimmune Disease#Autoimmune Diseases
+D001342,Autonomic Nervous System Diseases,"ANS (Autonomic Nervous System) Diseases#ANS Diseases#Autonomic Central Nervous System Diseases#Autonomic Diseases#Autonomic Nervous System Diseases#Autonomic Nervous System Disorders#Autonomic Peripheral Nervous System Diseases#Central Autonomic Nervous System Diseases#Disorders of the Autonomic Nervous System#Nervous System Diseases, Autonomic#Nervous System Diseases, Parasympathetic#Nervous System Diseases, Sympathetic#Parasympathetic Nervous System Diseases#Peripheral Autonomic Nervous System Diseases#Segmental Autonomic Dysfunction#Sympathetic Nervous System Diseases"
+D053099,Azotemia,Azotemia
+D001416,Back Pain,Back Ache#Back Pain#Back Pain with Radiation#Back Pain without Radiation#Backache#Vertebrogenic Pain Syndrome
+D001424,Bacterial Infections,"Bacterial Infection#Bacterial Infections#Infection, Bacterial#Infections, Bacterial"
+D001480,Basal Ganglia Diseases,Basal Ganglia Diseases#Basal Ganglia Disorders#Extrapyramidal Disorders#Lenticulostriate Disorders
+D001649,Bile Duct Diseases,Bile Duct Diseases
+D001714,Bipolar Disorder,"Affective Psychosis, Bipolar#Bipolar Disorder#Depression, Bipolar#Mania#Manic Disorder#Manic State#Manic-Depressive Psychosis#Psychoses, Manic-Depressive#Psychosis, Manic-Depressive"
+D001763,Blepharoptosis,"Blepharoptosis#Ptosis, Eyelid"
+D001766,Blindness,"Amaurosis#Blindness#Blindness, Acquired#Blindness, Complete#Blindness, Hysterical#Blindness, Legal#Blindness, Monocular#Blindness, Transient"
+D001778,Blood Coagulation Disorders,"Blood Coagulation Disorders#Coagulation Disorders, Blood#Disorders, Blood Coagulation"
+D001847,Bone Diseases,Bone Diseases
+D001855,Bone Marrow Diseases,Bone Marrow Diseases
+D001919,Bradycardia,Bradyarrhythmia#Bradyarrhythmias#Bradycardia
+D001927,Brain Diseases,"Brain Diseases#Brain Disorders#Central Nervous System Disorders, Intracranial#Central Nervous System Intracranial Disorders#CNS Disorders, Intracranial#Encephalon Diseases#Encephalopathy#Intracranial Central Nervous System Disorders#Intracranial CNS Disorders"
+D001928,"Brain Diseases, Metabolic","Acquired Metabolic Diseases, Brain#Acquired Metabolic Diseases, Nervous System#Acquired Metabolic Encephalopathies#Brain Diseases, Metabolic#Brain Diseases, Metabolic, Acquired#Brain Disorders, Metabolic#Brain Disorders, Metabolic, Acquired#Brain Syndrome, Metabolic#Brain Syndrome, Metabolic, Acquired#Central Nervous System Metabolic Disorders#CNS Metabolic Disorders#CNS Metabolic Disorders, Acquired#Encephalopathies, Metabolic#Encephalopathy, Metabolic, Acquired#Metabolic Brain Diseases#Metabolic Brain Diseases, Acquired#Metabolic Brain Syndrome#Metabolic Brain Syndrome, Acquired#Metabolic Brain Syndromes#Metabolic Brain Syndromes, Acquired#Metabolic Diseases, Acquired, Nervous System#Metabolic Disorder, Central Nervous System, Acquired#Metabolic Disorders, Brain#Metabolic Disorders, Central Nervous System#Metabolic Disorders, CNS#Metabolic Disorders, CNS, Acquired#Metabolic Encephalopathies#Nervous System Acquired Metabolic Diseases"
+D001929,Brain Edema,"Brain Edema#Brain Swelling#Cerebral Edema#Cerebral Edema, Cytotoxic#Cerebral Edema, Vasogenic#Cytotoxic Brain Edema#Cytotoxic Cerebral Edema#Intracranial Edema#Vasogenic Brain Edema#Vasogenic Cerebral Edema"
+D020520,Brain Infarction,"Anterior Cerebral Circulation Infarction#Anterior Circulation Brain Infarction#Anterior Circulation Infarction, Brain#Brain Infarction#Brain Infarction, Anterior Circulation#Brain Infarction, Posterior Circulation#Brain Infarction, Venous#Infarction, Anterior Cerebral Circulation#Infarction, Anterior Circulation, Brain#Infarction, Brain, Anterior Circulation#Infarction, Brain, Posterior Circulation#Infarction, Posterior Circulation, Brain#Posterior Circulation Brain Infarction#Posterior Circulation Infarction, Brain#Venous Infarction, Brain"
+D001930,Brain Injuries,"Acute Brain Injuries#Brain Injuries#Brain Injuries, Acute#Brain Injuries, Focal#Brain Lacerations#Focal Brain Injuries#Injuries, Acute Brain#Injuries, Brain"
+D002545,Brain Ischemia,"Brain Ischemia#Cerebral Ischemia#Encephalopathy, Ischemic#Ischemia, Cerebral#Ischemic Encephalopathy"
+D001932,Brain Neoplasms,"Benign Neoplasms, Brain#Brain Cancer#Brain Neoplasm, Primary#Brain Neoplasms#Brain Neoplasms, Benign#Brain Neoplasms, Malignant#Brain Neoplasms, Malignant, Primary#Brain Neoplasms, Primary Malignant#Brain Tumor, Primary#Brain Tumor, Recurrent#Brain Tumors#Cancer of Brain#Cancer of the Brain#Intracranial Neoplasms#Malignant Neoplasms, Brain#Malignant Primary Brain Neoplasms#Malignant Primary Brain Tumors#Neoplasms, Brain#Neoplasms, Brain, Benign#Neoplasms, Brain, Malignant#Neoplasms, Brain, Primary#Neoplasms, Intracranial#Primary Brain Neoplasms#Primary Malignant Brain Neoplasms#Primary Malignant Brain Tumors"
+D001943,Breast Neoplasms,"Breast Cancer#Breast Carcinoma#Breast Neoplasms#Breast Tumors#Cancer of Breast#Cancer of the Breast#Human Mammary Carcinoma#Malignant Neoplasm of Breast#Malignant Tumor of Breast#Mammary Cancer#Mammary Carcinoma, Human#Mammary Neoplasm, Human#Mammary Neoplasms, Human#Neoplasms, Breast#Tumors, Breast"
+D001986,Bronchial Spasm,Bronchial Spasm#Bronchospasm
+D002037,Bundle-Branch Block,Anterior Fascicular Block#Bundle Branch Block#Bundle-Branch Block#Fascicular Block#Left Bundle-Branch Block#Posterior Fascicular Block#Right Bundle-Branch Block
+D002051,Burkitt Lymphoma,"African Lymphoma#Burkitt Cell Leukemia#Burkitt Leukemia#Burkitt Lymphoma#Burkitt Tumor#Burkitt's Leukemia#Burkitt's Lymphoma#Burkitt's Tumor#Leukemia, Lymphoblastic, Burkitt-Type#Leukemia, Lymphocytic, L3#Lymphocytic Leukemia, L3#Lymphoma, Burkitt"
+D002277,Carcinoma,"Carcinoma#Carcinoma, Anaplastic#Carcinoma, Spindle-Cell#Carcinoma, Undifferentiated#Carcinomatosis#Epithelial Neoplasms, Malignant#Epithelial Tumors, Malignant#Epithelioma#Malignant Epithelial Neoplasms#Neoplasms, Malignant Epithelial"
+D006528,"Carcinoma, Hepatocellular","Carcinoma, Hepatocellular#Hepatocellular Carcinoma#Hepatoma#Liver Cancer, Adult#Liver Cell Carcinoma#Liver Cell Carcinoma, Adult"
+D002289,"Carcinoma, Non-Small-Cell Lung","Carcinoma, Non-Small Cell Lung#Carcinoma, Non-Small-Cell Lung#Non-Small Cell Lung Cancer#Non-Small-Cell Lung Carcinoma#Nonsmall Cell Lung Cancer"
+D002292,"Carcinoma, Renal Cell","Adenocarcinoma Of Kidney#Adenocarcinoma, Renal#Adenocarcinoma, Renal Cell#Carcinoma, Hypernephroid#Carcinoma, Renal Cell#Chromophil Renal Cell Carcinoma#Chromophobe Renal Cell Carcinoma#Clear Cell Renal Carcinoma#Clear Cell Renal Cell Carcinoma#Collecting Duct Carcinoma#Collecting Duct Carcinoma (Kidney)#Collecting Duct Carcinoma of the Kidney#Grawitz Tumor#Hypernephroma#Nephroid Carcinoma#Papillary Renal Cell Carcinoma#Renal Cell Cancer#Renal Cell Carcinoma#Renal Cell Carcinoma, Papillary#Renal Collecting Duct Carcinoma#Sarcomatoid Renal Cell Carcinoma"
+D002294,"Carcinoma, Squamous Cell","Carcinoma, Epidermoid#Carcinoma, Planocellular#Carcinoma, Squamous#Carcinoma, Squamous Cell#Squamous Cell Carcinoma"
+D002295,"Carcinoma, Transitional Cell","Carcinoma, Transitional Cell"
+D002303,"Cardiac Output, Low","Cardiac Output, Low#Low Cardiac Output#Low Cardiac Output Syndrome"
+D006332,Cardiomegaly,Cardiac Hypertrophy#Cardiomegaly#Enlarged Heart#Heart Enlargement#Heart Hypertrophy
+D009202,Cardiomyopathies,"Cardiomyopathies#Cardiomyopathies, Primary#Cardiomyopathies, Secondary#Myocardial Diseases#Myocardial Diseases, Primary#Myocardial Diseases, Secondary#Myocardiopathies#Primary Myocardial Diseases#Secondary Myocardial Diseases"
+D002311,"Cardiomyopathy, Dilated","Cardiomyopathy, Congestive#Cardiomyopathy, Dilated#Cardiomyopathy, Dilated, 1a#Cardiomyopathy, Dilated, Autosomal Recessive#Cardiomyopathy, Dilated, CMD1A#Cardiomyopathy, Dilated, LMNA#Cardiomyopathy, Dilated, With Conduction Defect 1#Cardiomyopathy, Dilated, with Conduction Deffect1#Cardiomyopathy, Familial Idiopathic#Cardiomyopathy, Idiopathic Dilated#Congestive Cardiomyopathy#Dilated Cardiomyopathy#Dilated cardiomyopathy 1A"
+D002312,"Cardiomyopathy, Hypertrophic","Cardiomyopathy, Hypertrophic#Cardiomyopathy, Hypertrophic Obstructive"
+D066126,Cardiotoxicity,Cardiac Toxicity#Cardiotoxicity
+D002318,Cardiovascular Diseases,Cardiovascular Diseases
+D002375,Catalepsy,"Anochlesia#Catalepsy#Cerea Flexibilitas#Flexibility, Waxy"
+D002385,Cataplexy,Cataleptic Attacks#Cataplexy#Henneberg Syndrome#Status Cataplexicus#Tonelessness Syndrome
+D002386,Cataract,"Cataract#Cataract, Membranous#Lens Opacities#Pseudoaphakia"
+D002389,Catatonia,"Catatonia#Catatonia, Malignant#Catatonia, Organic#Lethal Catatonia#Organic Catatonic Disorder#Schizophreniform Catatonia"
+D002471,"Cell Transformation, Neoplastic","Cell Transformation, Neoplastic#Neoplastic Cell Transformation#Neoplastic Transformation, Cell#Transformation, Neoplastic Cell#Tumorigenic Transformation"
+D002493,Central Nervous System Diseases,Central Nervous System Diseases#Central Nervous System Disorders#CNS Diseases
+D002524,Cerebellar Ataxia,"Adiadochokinesis#Ataxia, Cerebellar#Cerebellar Ataxia#Cerebellar Dysmetria#Cerebellar Hemiataxia#Cerebellar Incoordination#Dysmetria#Hypermetria"
+D002526,Cerebellar Diseases,Cerebellar Diseases#Cerebellar Disorders#Cerebellar Dysfunction#Cerebellar Syndromes#Cerebellum Diseases
+D002543,Cerebral Hemorrhage,"Brain Hemorrhage, Cerebral#Cerebral Hemorrhage#Cerebral Parenchymal Hemorrhage#Hemorrhage, Cerebral#Hemorrhage, Cerebrum#Intracerebral Hemorrhage"
+D002544,Cerebral Infarction,"Anterior Choroidal Artery Infarction#Cerebral Infarction#Cerebral Infarction, Left Hemisphere#Cerebral Infarction, Right Hemisphere#Cerebral, Left Hemisphere, Infarction#Cerebral, Right Hemisphere, Infarction#Infarction, Cerebral#Infarction, Cerebral, Left Hemisphere#Infarction, Cerebral, Right Hemisphere#Infarction, Left Hemisphere, Cerebral#Infarction, Right Hemisphere, Cerebral#Left Hemisphere, Cerebral Infarction#Left Hemisphere, Infarction, Cerebral#Posterior Choroidal Artery Infarction#Right Hemisphere, Cerebral Infarction#Right Hemisphere, Infarction, Cerebral#Subcortical Infarction"
+D002561,Cerebrovascular Disorders,"Brain Vascular Disorders#Cerebrovascular Diseases#Cerebrovascular Disorders#Cerebrovascular Insufficiency#Cerebrovascular Occlusion#Intracranial Vascular Disorders#Vascular Diseases, Intracranial"
+D056486,Chemical and Drug Induced Liver Injury,"Acute Liver Injury, Drug-Induced#Chemical and Drug Induced Liver Injury#Chemically-Induced Liver Toxicity#Drug-Induced Acute Liver Injury#Drug-Induced Liver Disease#Drug-Induced Liver Injury#Hepatitis, Drug-Induced#Hepatitis, Toxic#Liver Injury, Drug-Induced#Liver Injury, Drug-Induced, Acute#Toxic Hepatitis"
+D002637,Chest Pain,Chest Pain#Precordial Catch#Precordial Catch Syndrome#Texidor's Twinge
+D002653,Child Behavior Disorders,Child Behavior Disorders
+D023341,Chills,Chills
+D002761,Cholangitis,Cholangitis
+D002769,Cholelithiasis,Cholelithiasis
+D002779,Cholestasis,Bile Duct Obstruction#Biliary Stasis#Cholestasis
+D002780,"Cholestasis, Intrahepatic","Bile Duct Obstruction, Intrahepatic#Biliary Stasis, Intrahepatic#Cholestasis, Intrahepatic#Intrahepatic Cholestasis"
+D002819,Chorea,"Chorea#Chorea Disorders#Chorea Syndromes#Chorea, Benign Hereditary#Chorea, Chronic Progressive#Chorea, Rheumatic#Chorea, Senile#Chorea, Sydenham#Choreatic Disorders#Choreatic Syndromes#Choreic Movement#Choreiform Movement#Dyskinesias, Paroxysmal#Hereditary Chorea#Hereditary Progressive Chorea Without Dementia#Paroxysmal Dyskinesias#Rheumatic Chorea#Senile Chorea#St. Vitus's Dance#Sydenham Chorea#Sydenham's Chorea"
+D015267,Churg-Strauss Syndrome,"Allergic Angiitis#Allergic Angiitis and Granulomatosis#Allergic Granulomatosis#Allergic Granulomatous and Angiitis#Allergic Granulomatous Angiitis#Angiitis, Allergic Granulomatous#Churg-Strauss Syndrome#Eosinophilic Granulomatous Vasculitis#Granulomatous Allergic Angiitis#Vasculitis, Churg-Strauss"
+D002972,Cleft Palate,"Cleft Palate#Cleft Palate, Isolated"
+D019970,Cocaine-Related Disorders,Cocaine Abuse#Cocaine Addiction#Cocaine Dependence#Cocaine-Related Disorders
+D003072,Cognition Disorders,Cognition Disorders#Overinclusion
+D003092,Colitis,Colitis
+D003110,Colonic Neoplasms,"Cancer of Colon#Cancer of the Colon#Colon Cancer#Colon Neoplasms#Colonic Cancer#Colonic Neoplasms#Neoplasms, Colonic"
+D003117,Color Vision Defects,"Achromatopsia#Color Blindness#Color Blindness, Acquired#Color Blindness, Blue#Color Blindness, Green#Color Blindness, Inherited#Color Blindness, Red#Color Blindness, Red-Green#Color Vision Defects#Color Vision Deficiency#Deutan Defect#Monochromatopsia#Protan Defect#Tritan Defect"
+D015179,Colorectal Neoplasms,"Colorectal Cancer#Colorectal Carcinoma#Colorectal Neoplasms#Colorectal Tumors#Neoplasms, Colorectal"
+D003128,Coma,Coma#Comatose#Pseudocoma
+D019955,Conduct Disorder,Conduct Disorder
+D003221,Confusion,"Bewilderment#Confusion#Confusion, Post-Ictal#Confusion, Reactive#Confusional State#Disorientation"
+D003231,Conjunctivitis,Conjunctivitis
+D003244,Consciousness Disorders,"Altered Level of Consciousness#Consciousness Disorders#Consciousness, Level Altered#Consciousness, Level Depressed#Depressed Level of Consciousness#Semiconsciousness"
+D003248,Constipation,Colonic Inertia#Constipation#Dyschezia
+D003251,"Constriction, Pathologic","Constriction, Pathologic#Constriction, Pathological#Pathologic Constriction#Stenosis#Stricture"
+D003324,Coronary Artery Disease,"Arteriosclerosis, Coronary#Atherosclerosis, Coronary#Coronary Arteriosclerosis#Coronary Artery Disease#Coronary Atherosclerosis"
+D003327,Coronary Disease,Coronary Disease#Coronary Heart Disease
+D023921,Coronary Stenosis,Coronary Artery Stenosis#Coronary Stenoses#Coronary Stenosis
+D003328,Coronary Thrombosis,"Coronary Thrombosis#Thrombosis, Coronary"
+D003329,Coronary Vasospasm,Coronary Artery Vasospasm#Coronary Vasospasm
+D003371,Cough,Cough
+D019465,Craniofacial Abnormalities,Craniofacial Abnormalities
+D003550,Cystic Fibrosis,Cystic Fibrosis#Cystic Fibrosis of Pancreas#Fibrocystic Disease of Pancreas#Mucoviscidosis#Pancreatic Cystic Fibrosis#Pulmonary Cystic Fibrosis
+D003556,Cystitis,Cystitis
+D003638,Deafness,"Bilateral Deafness#Deaf Mutism#Deaf-Mutism#Deafness#Deafness, Acquired#Hearing Loss, Complete#Hearing Loss, Extreme#Prelingual Deafness"
+D003645,"Death, Sudden","Death, Sudden"
+D016757,"Death, Sudden, Cardiac","Cardiac Arrest, Sudden#Cardiac Sudden Death#Death, Sudden, Cardiac#Sudden Cardiac Arrest#Sudden Cardiac Death"
+D003680,Deglutition Disorders,Deglutition Disorders#Dysphagia#Esophageal Dysphagia#Oropharyngeal Dysphagia#Swallowing Disorders
+D003693,Delirium,Delirium#Delirium of Mixed Origin#Subacute Delirium
+D003704,Dementia,Amentia#Dementia#Familial Dementia#Senile Paranoid Dementia
+D003711,Demyelinating Diseases,"Clinically Isolated CNS Demyelinating Syndrome#Clinically Isolated Syndrome, CNS Demyelinating#Demyelinating Diseases#Demyelinating Disorders#Demyelination"
+D003866,Depressive Disorder,"Depression, Endogenous#Depression, Neurotic#Depression, Unipolar#Depressive Disorder#Depressive Syndrome#Melancholia#Neurosis, Depressive#Unipolar Depression"
+D003865,"Depressive Disorder, Major","Depression, Involutional#Depressive Disorder, Major#Major Depressive Disorder#Melancholia, Involutional#Paraphrenia, Involutional#Psychosis, Involutional"
+D003872,Dermatitis,Dermatitis
+D003873,"Dermatitis, Exfoliative","Dermatitis Exfoliativa#Dermatitis, Exfoliative#Erythroderma"
+D003882,Dermatomyositis,"Dermatomyositis#Dermatomyositis, Adult Type#Dermatomyositis, Childhood Type#Dermatopolymyositis#Polymyositis-Dermatomyositis"
+D002658,Developmental Disabilities,"Child Development Deviations#Child Development Disorders#Child Development Disorders, Specific#Development Disorders, Child#Developmental Delay Disorders#Developmental Disabilities#Disabilities, Developmental"
+D018500,"Diabetes Insipidus, Nephrogenic","Acquired Nephrogenic Diabetes Insipidus#ADH-Resistant Diabetes Insipidus#Congenital Nephrogenic Diabetes Insipidus#Diabetes Insipidus Renalis#Diabetes Insipidus, Nephrogenic#Diabetes Insipidus, Nephrogenic, Autosomal#Diabetes Insipidus, Nephrogenic, Type 1#Diabetes Insipidus, Nephrogenic, Type I#Diabetes Insipidus, Nephrogenic, Type II#Diabetes Insipidus, Nephrogenic, X-Linked#Nephrogenic Diabetes Insipidus#Nephrogenic Diabetes Insipidus, Type I#Nephrogenic Diabetes Insipidus, Type II#Vasopressin-Resistant Diabetes Insipidus"
+D003920,Diabetes Mellitus,Diabetes Mellitus
+D003921,"Diabetes Mellitus, Experimental","Alloxan Diabetes#Diabetes Mellitus, Experimental#Experimental Diabetes Mellitus#Streptozocin Diabetes#Streptozotocin Diabetes"
+D003924,"Diabetes Mellitus, Type 2","Diabetes Mellitus, Adult-Onset#Diabetes Mellitus, Ketosis-Resistant#Diabetes Mellitus, Maturity-Onset#Diabetes Mellitus, Non Insulin Dependent#Diabetes Mellitus, Non-Insulin-Dependent#Diabetes Mellitus, Noninsulin Dependent#Diabetes Mellitus, Noninsulin-Dependent#Diabetes Mellitus, Slow-Onset#Diabetes Mellitus, Stable#Diabetes Mellitus, Type 2#Diabetes Mellitus, Type II#Maturity-Onset Diabetes#Maturity-Onset Diabetes Mellitus#MODY#NIDDM#Noninsulin-Dependent Diabetes Mellitus#Type 2 Diabetes#Type 2 Diabetes Mellitus"
+D003925,Diabetic Angiopathies,"Diabetic Angiopathies#Diabetic Vascular Complications#Diabetic Vascular Diseases#Microangiopathy, Diabetic"
+D003928,Diabetic Nephropathies,"Diabetic Glomerulosclerosis#Diabetic Kidney Disease#Diabetic Nephropathies#Diabetic Nephropathy#Glomerulosclerosis, Diabetic#Intracapillary Glomerulosclerosis#Kimmelstiel-Wilson Disease#Kimmelstiel-Wilson Syndrome#Nodular Glomerulosclerosis"
+D003929,Diabetic Neuropathies,"Asymmetric Diabetic Proximal Motor Neuropathy#Diabetic Amyotrophy#Diabetic Asymmetric Polyneuropathy#Diabetic Autonomic Neuropathy#Diabetic Mononeuropathy#Diabetic Mononeuropathy Simplex#Diabetic Neuralgia#Diabetic Neuropathies#Diabetic Neuropathy, Painful#Diabetic Polyneuropathy#Mononeuropathy, Diabetic#Neuralgia, Diabetic#Symmetric Diabetic Proximal Motor Neuropathy"
+D003967,Diarrhea,Diarrhea
+D004172,Diplopia,"Diplopia#Diplopia, Cortical#Diplopia, Horizontal#Diplopia, Intermittent#Diplopia, Monocular#Diplopia, Refractive#Diplopia, Unilateral#Diplopia, Vertical#Double Vision#Polyopsia"
+D004195,"Disease Models, Animal","Disease Models, Animal"
+D006970,Disorders of Excessive Somnolence,"Disorders of Excessive Somnolence#DOES (Disorders of Excessive Somnolence)#Excessive Somnolence Disorders#Hypersomnia#Hypersomnia, Recurrent#Hypersomnolence#Hypersomnolence Disorders#Hypersomnolence Disorders, Primary#Hypersomnolence Disorders, Secondary#Primary Hypersomnolence Disorders#Secondary Hypersomnolence Disorders"
+D007174,"Disruptive, Impulse Control, and Conduct Disorders","Disruptive, Impulse Control, and Conduct Disorders#Impulse Control Disorders#Impulse-Control Disorders#Intermittent Explosive Disorder#Kleptomania"
+D004211,Disseminated Intravascular Coagulation,"Coagulation, Disseminated Intravascular#Consumption Coagulopathy#Disseminated Coagulation, Intravascular#Disseminated Intravascular Coagulation#Intravascular Coagulation, Disseminated#Intravascular Disseminated Coagulation"
+D004213,Dissociative Disorders,"Dissociation#Dissociative Disorders#Dissociative Reaction#Fugue#Hysteria, Dissociative"
+D004244,Dizziness,Dizziness#Dizzyness#Light-Headedness#Lightheadedness#Orthostasis
+D003875,Drug Eruptions,"Dermatitis Medicamentosa#Dermatitis, Adverse Drug Reaction#Drug Eruptions#Maculopapular Drug Eruption#Maculopapular Exanthem#Morbilliform Drug Reaction#Morbilliform Exanthem"
+D004342,Drug Hypersensitivity,"Allergy, Drug#Drug Allergy#Drug Hypersensitivity#Hypersensitivity, Drug"
+D062787,Drug Overdose,Drug Overdose
+D064420,Drug-Related Side Effects and Adverse Reactions,"Adverse Drug Event#Adverse Drug Reaction#Drug Side Effects#Drug Toxicity#Drug-Related Side Effects and Adverse Reactions#Side Effects of Drugs#Toxicity, Drug"
+D004401,Dysarthria,"Dysarthosis#Dysarthria#Dysarthria, Flaccid#Dysarthria, Guttural#Dysarthria, Mixed#Dysarthria, Scanning#Dysarthria, Spastic"
+D004409,"Dyskinesia, Drug-Induced","Dyskinesia, Drug-Induced#Dyskinesia, Medication-Induced#Medication-Induced Dyskinesia"
+D020820,Dyskinesias,Abnormal Movements#Asterixis#Ballismus#Dyskinesias#Hemiballism#Hemiballismus#Involuntary Movements#Lingual-Facial-Buccal Dyskinesia#Linguofacial Dyskinesia#Oral-facial Dyskinesia#Orofacial Dyskinesia#Tardive Oral Dyskinesia
+D050171,Dyslipidemias,Dyslipidemia#Dyslipidemias#Dyslipoproteinemias
+D004415,Dyspepsia,Dyspepsia#Indigestion
+D055154,Dysphonia,"Dysphonia#Hyperkinetic Dysphonia#Neurologic Adducter Spastic Dysphonia#Organic Tremor Dysphonia#Phonation Disorders#Spastic Dysphonia#Spastic Dysphonia, Neurologic Adducter"
+D004417,Dyspnea,Breathlessness#Dyspnea#Shortness of Breath
+D004421,Dystonia,"Dystonia#Dystonia, Diurnal#Dystonia, Limb#Dystonia, Paroxysmal#Muscle Dystonia"
+D020821,Dystonic Disorders,"Adult-Onset Dystonias#Adult-Onset Idiopathic Focal Dystonias#Adult-Onset Idiopathic Torsion Dystonias#Autosomal Dominant Familial Dystonia#Autosomal Recessive Familial Dystonia#Childhood Onset Dystonias#Dystonia Disorders#Dystonia, Hereditary#Dystonia, Primary#Dystonia, Psychogenic#Dystonia, Secondary#Dystonias, Sporadic#Dystonic Disorders#Familial Dystonia#Familial Dystonia, Autosomal Dominant#Familial Dystonia, Autosomal Recessive#Familial Dystonia, Idiopathic#Focal Dystonia#Pseudodystonia#Secondary Dystonia#Writer's Cramp"
+D004487,Edema,Anasarca#Dropsy#Edema#Hydrops
+D020964,Embryo Loss,Blastocyst Disintegration#Disintegration of Blastocyst#Disintegration of Embryo#Embryo Death#Embryo Disintegration#Embryo Loss#Embryo Resorption
+D004681,"Encephalomyelitis, Autoimmune, Experimental","Allergic Encephalomyelitis#Allergic Encephalomyelitis, Experimental#Autoimmune Encephalomyelitis, Experimental#Autoimmune Experimental Encephalomyelitis#Encephalomyelitis, Allergic#Encephalomyelitis, Autoimmune, Experimental#Encephalomyelitis, Experimental Autoimmune#Experimental Allergic Encephalomyelitis#Experimental Autoimmune Encephalomyelitis"
+D016889,Endometrial Neoplasms,"Cancer of Endometrium#Cancer of the Endometrium#Carcinoma of Endometrium#Endometrial Cancer#Endometrial Carcinoma#Endometrial Neoplasms#Endometrium Cancer#Neoplasms, Endometrial"
+D004715,Endometriosis,Endometrioma#Endometriosis
+D004719,Endomyocardial Fibrosis,Endomyocardial Fibrosis
+D004775,Enuresis,Enuresis
+D004802,Eosinophilia,"Eosinophilia#Eosinophilia, Tropical#Tropical Eosinophilia"
+D004831,"Epilepsies, Myoclonic","Benign Infantile Myoclonic Epilepsy#Cryptogenic Myoclonic Epilepsy#Dravet Syndrome#Early Childhood Epilepsy, Myoclonic#Early Childhood, Myoclonic Epilepsy#Encephalopathy, Myoclonic#Epilepsies, Myoclonic#Epilepsy, Early Childhood, Myoclonic#Epilepsy, Myoclonic, Early Childhood#Epilepsy, Myoclonic, Infantile#Epilepsy, Myoclonic, Infantile, Benign#Epilepsy, Myoclonic, Infantile, Severe#Epilepsy, Myoclonus#Idiopathic Myoclonic Epilepsy#Infantile Severe Myoclonic Epilepsy#Myoclonic Absence Epilepsy#Myoclonic Astatic Epilepsy#Myoclonic Encephalopathy#Myoclonic Epilepsy#Myoclonic Epilepsy, Benign Infantile#Myoclonic Epilepsy, Early Childhood#Myoclonic Epilepsy, Infantile#Myoclonic Epilepsy, Infantile, Benign#Myoclonic Epilepsy, Infantile, Severe#Myoclonic Epilepsy, Severe Infantile#Myoclonic Epilepsy, Severe, Of Infancy#Myoclonic Seizure Disorder#Severe Infantile Myoclonic Epilepsy#Severe Myoclonic Epilepsy Of Infancy#Severe Myoclonic Epilepsy, Infantile#Symptomatic Myoclonic Epilepsy"
+D004827,Epilepsy,"Aura#Awakening Epilepsy#Epilepsy#Epilepsy, Cryptogenic#Epileptic Seizures#Seizure Disorder#Seizures, Epileptic#Single Seizure"
+D004832,"Epilepsy, Absence","Absence Seizure Disorder#Absence Seizures#Akinetic Petit Mal#Atonic Absence Seizures#Childhood Absence Epilepsy#Epilepsy Juvenile Absence#Epilepsy, Absence#Epilepsy, Absence, Atypical#Epilepsy, Minor#Epilepsy, Petit Mal#Juvenile Absence Epilepsy#Petit Mal Convulsion#Petit Mal Epilepsy#Pykno-Epilepsy#Pyknolepsy#Seizure Disorder, Absence"
+D004829,"Epilepsy, Generalized","Convulsive Generalized Seizure Disorder#Convulsive Seizure Disorder, Generalized#Epilepsy, Akinetic#Epilepsy, Atonic#Epilepsy, Generalized#Epilepsy, Tonic#Generalized Convulsive Epilepsy#Generalized Nonconvulsive Epilepsy#Generalized Nonconvulsive Seizure Disorder#Generalized Onset Seizure Disorder#Generalized Seizure Disorder, Convulsive#Generalized Seizure Disorder, Nonconvulsive#Nonconvulsive Generalized Seizure Disorder#Nonconvulsive Seizure Disorder, Generalized#Seizure Disorder, Convulsive, Generalized#Seizure Disorder, Generalized#Seizure Disorder, Generalized Nonconvulsive#Seizure Disorder, Generalized Onset#Seizure Disorder, Generalized, Convulsive#Seizure Disorder, Nonconvulsive Generalized#Symptomatic Generalized Epilepsy"
+D004830,"Epilepsy, Tonic-Clonic","Convulsions, Grand Mal#Cryptogenic Tonic-Clonic Epilepsy#Epilepsy, Grand Mal#Epilepsy, Major#Epilepsy, Tonic-Clonic#Epilepsy, Tonic-Clonic, Cryptogenic#Epilepsy, Tonic-Clonic, Familial#Epilepsy, Tonic-Clonic, Symptomatic#Familial Tonic-Clonic Epilepsy#Grand Mal Seizure Disorder#Major Motor Seizure Disorder#Seizure Disorder, Grand Mal#Seizure Disorder, Major Motor#Seizure Disorder, Tonic Clonic#Symptomatic Tonic-Clonic Epilepsy#Tonic Clonic Convulsions#Tonic-Clonic Convulsion Disorder#Tonic-Clonic Convulsion Syndrome#Tonic-Clonic Seizure Disorder#Tonic-Clonic Seizure Syndrome"
+D007172,Erectile Dysfunction,Erectile Dysfunction#Impotence#Male Impotence#Male Sexual Impotence
+D004890,Erythema,Erythema
+D004892,Erythema Multiforme,Erythema Multiforme
+D004893,Erythema Nodosum,Erythema Nodosum
+D004938,Esophageal Neoplasms,"Cancer of Esophagus#Cancer of the Esophagus#Esophageal Cancer#Esophageal Neoplasms#Esophagus Cancer#Esophagus Neoplasm#Neoplasms, Esophageal"
+D005076,Exanthema,Exanthem#Exanthema#Rash#Skin Rash
+D005119,Extravasation of Diagnostic and Therapeutic Materials,"Extravasation of Contrast Media#Extravasation of Diagnostic and Therapeutic Materials#Extravasation of Diagnostic, Therapeutic Materials"
+D005128,Eye Diseases,Eye Diseases
+D005221,Fatigue,Fatigue#Lassitude
+D005234,Fatty Liver,Fatty Liver#Liver Steatosis#Steatohepatitis#Steatosis of Liver#Visceral Steatosis
+D001068,Feeding and Eating Disorders,Appetite Disorders#Eating and Feeding Disorders#Eating Disorders#Feeding and Eating Disorders#Feeding Disorders
+D005313,Fetal Death,Fetal Death#Fetal Demise#Fetal Mummification
+D005315,Fetal Diseases,Embryopathies#Fetal Diseases
+D005317,Fetal Growth Retardation,"Fetal Growth Retardation#Growth Retardation, Intrauterine#Intrauterine Growth Retardation#IUGR"
+D005334,Fever,Fever#Hyperthermia#Pyrexia
+D005355,Fibrosis,Cirrhosis#Fibrosis
+D005483,Flushing,Flushing
+D020234,Gait Ataxia,"Ataxia of Gait#Cerebellar Gait#Cerebellar Gait Ataxia#Gait Ataxia#Gait Ataxia, Sensory"
+D020233,"Gait Disorders, Neurologic","Ambulation Disorders, Neurologic#Charcot Gait#Charcot's Gait#Duck Gait#Gait Disorder, Sensorimotor#Gait Disorders, Neurologic#Gait Dysfunction, Neurologic#Gait, Athetotic#Gait, Broadened#Gait, Drop Foot#Gait, Festinating#Gait, Frontal#Gait, Hemiplegic#Gait, Hysterical#Gait, Reeling#Gait, Rigid#Gait, Scissors#Gait, Shuffling#Gait, Spastic#Gait, Stumbling#Gait, Unsteady#Gait, Widebased#Locomotion Disorders, Neurologic#Marche a Petit Pas#Neurologic Ambulation Disorders#Neurologic Locomotion Disorders#Rapid Fatigue of Gait#Sensorimotor Gait Disorder"
+D005687,Galactorrhea,Galactorrhea
+D005756,Gastritis,Gastritis
+D005759,Gastroenteritis,Gastroenteritis
+D005767,Gastrointestinal Diseases,"Cholera Infantum#Functional Gastrointestinal Disorders#Gastrointestinal Diseases#Gastrointestinal Disorders, Functional"
+D006471,Gastrointestinal Hemorrhage,"Gastrointestinal Hemorrhage#Hematochezia#Hemorrhage, Gastrointestinal"
+D005909,Glioblastoma,"Astrocytoma, Grade IV#Giant Cell Glioblastoma#Glioblastoma#Glioblastoma Multiforme"
+D005910,Glioma,Glial Cell Tumors#Glioma#Malignant Glioma#Mixed Glioma
+D005921,Glomerulonephritis,Bright Disease#Glomerulonephritis
+D015433,"Glomerulonephritis, Membranous","Extramembranous Glomerulopathy#Glomerulonephritis, Membranous#Heymann Nephritis#Idiopathic Membranous Glomerulonephritis#Idiopathic Membranous Nephropathy#Membranous Glomerulonephropathy#Membranous Glomerulopathy#Membranous Nephropathy#Nephropathy, Membranous"
+D005923,"Glomerulosclerosis, Focal Segmental","Focal Segmental Glomerulosclerosis#Glomerulonephritis, Focal Sclerosing#Glomerulosclerosis, Focal#Glomerulosclerosis, Focal Segmental#Hyalinosis, Segmental#Hyalinosis, Segmental Glomerular#Segmental Glomerular Hyalinosis"
+D018149,Glucose Intolerance,Glucose Intolerance#Impaired Glucose Tolerance
+D006029,Glycosuria,Glycosuria
+D006073,Gout,Gout
+D006099,Granuloma,Granuloma#Granulomas
+D006130,Growth Disorders,Growth Disorders#Stunted Growth#Stunting
+D006177,Gynecomastia,Adolescent Gynecomastia#Gynecomastia#Infant Gynecomastia#Male Breast Enlargement#Newborn Gynecomastia
+D006212,Hallucinations,"Hallucination of Body Sensation#Hallucinations#Hallucinations, Auditory#Hallucinations, Dissociative#Hallucinations, Elementary#Hallucinations, Formed, of People#Hallucinations, Gustatory#Hallucinations, Hypnagogic#Hallucinations, Hypnapompic#Hallucinations, Internal Body Sensation#Hallucinations, Kinesthetic#Hallucinations, Mood Congruent#Hallucinations, Mood Incongruent#Hallucinations, Olfactory#Hallucinations, Organic#Hallucinations, Reflex#Hallucinations, Sensory#Hallucinations, Somatic#Hallucinations, Tactile#Hallucinations, Verbal Auditory#Hallucinations, Visual#Hallucinations, Visual, Formed#Hallucinations, Visual, Unformed"
+D006258,Head and Neck Neoplasms,"Cancer of Head#Cancer of Head and Neck#Cancer of Neck#Cancer of the Head#Cancer of the Head and Neck#Cancer of the Neck#Head and Neck Cancer#Head and Neck Neoplasms#Head Cancer#Head Neoplasms#Head, Neck Neoplasms#Neck Cancer#Neck Neoplasms#Neoplasms, Head#Neoplasms, Head and Neck#Neoplasms, Neck#Neoplasms, Upper Aerodigestive Tract#UADT Neoplasms#Upper Aerodigestive Tract Neoplasms"
+D006261,Headache,Bilateral Headache#Cephalalgia#Cephalgia#Cephalodynia#Cranial Pain#Generalized Headache#Head Pain#Headache#Hemicrania#Ocular Headache#Orthostatic Headache#Periorbital Headache#Retro-Ocular Headache#Sharp Headache#Throbbing Headache#Unilateral Headache#Vertex Headache
+D006311,Hearing Disorders,Distorted Hearing#Dysacusis#Hearing Disorders#Paracousis#Paracusis
+D034381,Hearing Loss,Hearing Impairment#Hearing Loss#Hypoacusis
+D006312,"Hearing Loss, Bilateral","Hearing Loss, Bilateral"
+D006319,"Hearing Loss, Sensorineural","Cochlear Hearing Loss#Hearing Loss, Cochlear#Hearing Loss, Sensorineural#Sensorineural Hearing Loss"
+D006323,Heart Arrest,Asystole#Cardiac Arrest#Cardiopulmonary Arrest#Heart Arrest
+D006327,Heart Block,A-V Dissociation#Atrioventricular Dissociation#Auriculo-Ventricular Dissociation#Heart Block
+D006330,"Heart Defects, Congenital","Abnormality, Heart#Congenital Heart Defect#Congenital Heart Defects#Defects, Congenital Heart#Heart Abnormalities#Heart Defect, Congenital#Heart Defects, Congenital#Heart, Malformation Of"
+D006331,Heart Diseases,Cardiac Diseases#Heart Diseases
+D006333,Heart Failure,"Cardiac Failure#Congestive Heart Failure#Heart Decompensation#Heart Failure#Heart Failure, Congestive#Heart Failure, Left-Sided#Heart Failure, Right-Sided#Left-Sided Heart Failure#Myocardial Failure#Right-Sided Heart Failure"
+D006345,"Heart Septal Defects, Ventricular","Heart Septal Defects, Ventricular#Intraventricular Septal Defects#Ventricular Septal Defect#Ventricular Septal Defects"
+D006402,Hematologic Diseases,Blood Diseases#Hematologic Diseases#Hematological Diseases
+D006417,Hematuria,Hematuria
+D006461,Hemolysis,Extravascular Hemolysis#Hemolysis#Intravascular Hemolysis
+D006463,Hemolytic-Uremic Syndrome,Gasser Syndrome#Gasser's Syndrome#Hemolytic-Uremic Syndrome
+D006470,Hemorrhage,Bleeding#Hemorrhage
+D006501,Hepatic Encephalopathy,"Encephalopathy, Hepatic#Encephalopathy, Hepatocerebral#Encephalopathy, Portal-Systemic#Encephalopathy, Portosystemic#Fulminant Hepatic Failure with Cerebral Edema#Hepatic Coma#Hepatic Encephalopathy#Hepatic Stupor#Hepatocerebral Encephalopathy#Portal-Systemic Encephalopathy#Portosystemic Encephalopathy"
+D006504,Hepatic Veno-Occlusive Disease,"Hepatic Veno Occlusive Disease#Hepatic Veno-Occlusive Disease#Sinusoidal Obstruction Syndrome#Veno-Occlusive Disease, Hepatic"
+D006505,Hepatitis,Hepatitis
+D006529,Hepatomegaly,Enlarged Liver#Hepatomegaly
+D006556,Heroin Dependence,Heroin Abuse#Heroin Addiction#Heroin Dependence
+D006606,Hiccup,Hiccough#Hiccup
+D006689,Hodgkin Disease,"Granuloma, Hodgkin#Granuloma, Hodgkin's#Granuloma, Hodgkins#Granuloma, Malignant#Hodgkin Disease#Hodgkin Lymphoma#Hodgkin Lymphoma, Adult#Hodgkin's Disease#Hodgkin's Lymphoma#Hodgkins Disease#Lymphocyte Depletion Hodgkin's Lymphoma#Lymphocyte-Rich Classical Hodgkin's Lymphoma#Lymphogranuloma, Malignant#Mixed Cellularity Hodgkin's Lymphoma#Nodular Lymphocyte-Predominant Hodgkin's Lymphoma#Nodular Sclerosing Hodgkin's Lymphoma"
+D019584,Hot Flashes,Hot Flashes
+D006869,Hydronephrosis,Hydronephrosis
+D006930,Hyperalgesia,"Allodynia#Allodynia, Mechanical#Allodynia, Tactile#Allodynia, Thermal#Hyperalgesia#Hyperalgesia, Mechanical#Hyperalgesia, Primary#Hyperalgesia, Secondary#Hyperalgesia, Tactile#Hyperalgesia, Thermal#Hyperalgesic Sensations#Mechanical Allodynia#Mechanical Hyperalgesia#Tactile Allodynia#Thermal Allodynia"
+D022124,Hyperammonemia,Hyperammonemia
+D006932,Hyperbilirubinemia,Bilirubinemia#Hyperbilirubinemia
+D006934,Hypercalcemia,Hypercalcemia#Milk-Alkali Syndrome
+D006937,Hypercholesterolemia,Elevated Cholesterol#High Cholesterol Levels#Hypercholesteremia#Hypercholesterolemia
+D006940,Hyperemia,Active Hyperemia#Arterial Hyperemia#Hyperemia#Passive Hyperemia#Reactive Hyperemia#Venous Congestion#Venous Engorgement
+D006943,Hyperglycemia,"Hyperglycemia#Hyperglycemia, Postprandial#Postprandial Hyperglycemia"
+D006945,Hyperhidrosis,Hyperhidrosis
+D020138,Hyperhomocysteinemia,Hyperhomocysteinemia
+D006946,Hyperinsulinism,Compensatory Hyperinsulinemia#Endogenous Hyperinsulinism#Exogenous Hyperinsulinism#Hyperinsulinemia#Hyperinsulinism
+D006947,Hyperkalemia,Hyperkalemia#Hyperpotassemia
+D006948,Hyperkinesis,"Hyperactivity, Motor#Hyperkinesia#Hyperkinesia, Generalized#Hyperkinesis#Hyperkinetic Movements"
+D006949,Hyperlipidemias,Hyperlipemia#Hyperlipidemia#Hyperlipidemias#Lipemia#Lipidemia
+D006965,Hyperplasia,Hyperplasia
+D006966,Hyperprolactinemia,"Hyperprolactinaemia#Hyperprolactinemia#Inappropriate Prolactin Secretion#Inappropriate Prolactin Secretion Syndrome#Prolactin Hypersecretion Syndrome#Prolactin, Inappropriate Secretion"
+D006967,Hypersensitivity,Allergic Reaction#Allergy#Hypersensitivity
+D006973,Hypertension,"Blood Pressure, High#Hypertension"
+D006974,"Hypertension, Malignant","Hypertension, Malignant#Malignant Hypertension"
+D006975,"Hypertension, Portal","Cruveilhier-Baumgarten Syndrome#Hypertension, Portal"
+D006976,"Hypertension, Pulmonary","Hypertension, Pulmonary#Pulmonary Hypertension"
+D006977,"Hypertension, Renal","Hypertension, Renal"
+D006980,Hyperthyroidism,Hyperthyroid#Hyperthyroidism#Primary Hyperthyroidism
+D015228,Hypertriglyceridemia,Hypertriglyceridemia
+D006984,Hypertrophy,Hypertrophy
+D017379,"Hypertrophy, Left Ventricular","Hypertrophy, Left Ventricular#Left Ventricular Hypertrophy#Ventricular Hypertrophy, Left"
+D006987,Hypesthesia,"Hypesthesia#Hypesthesia, Tactile#Hypesthesia, Thermal#Hypoesthesia#Impaired Sensation#Numbness#Reduced Sensation"
+D006996,Hypocalcemia,Hypocalcemia
+D007003,Hypoglycemia,Fasting Hypoglycemia#Hypoglycemia#Postabsorptive Hypoglycemia#Postprandial Hypoglycemia#Reactive Hypoglycemia
+D007008,Hypokalemia,Hypokalemia#Hypopotassemia
+D018476,Hypokinesia,"Bradykinesia#Hypodynamia#Hypokinesia#Hypokinesia, Antiorthostatic"
+D007010,Hyponatremia,Hyponatremia
+D017674,Hypophosphatemia,Hypophosphatemia
+D007022,Hypotension,"Blood Pressure, Low#Hypotension#Hypotension, Vascular#Low Blood Pressure#Vascular Hypotension"
+D007024,"Hypotension, Orthostatic","Hypotension, Orthostatic#Hypotension, Postural#Orthostatic Hypotension"
+D007035,Hypothermia,"Hypothermia#Hypothermia, Accidental"
+D007037,Hypothyroidism,Hypothyroidism#Thyroid-Stimulating Hormone Deficiency#TSH Deficiency
+D000860,Hypoxia,"Anoxemia#Anoxia#Deficiency, Oxygen#Hypoxemia#Hypoxia#Oxygen Deficiency"
+D007177,Inappropriate ADH Syndrome,"Antidiuretic Hormone, Inappropriate Secretion#Inappropriate ADH Syndrome#Inappropriate Vasopressin Secretion Syndrome#Schwartz-Bartter Syndrome#SIADH#Syndrome of Inappropriate ADH (SIADH) Secretion"
+D007232,"Infant, Newborn, Diseases","Infant, Newborn, Diseases#Neonatal Diseases"
+D007235,"Infant, Premature, Diseases","Infant, Premature, Diseases"
+D020244,"Infarction, Middle Cerebral Artery","Cerebral Infarction, Middle Cerebral Artery#Embolic Infarction, Middle Cerebral Artery#Embolus, Middle Cerebral Artery#Infarction, Middle Cerebral Artery#Left Middle Cerebral Artery Infarction#MCA Infarction#Middle Cerebral Artery Circulation Infarction#Middle Cerebral Artery Embolic Infarction#Middle Cerebral Artery Embolus#Middle Cerebral Artery Infarction#Middle Cerebral Artery Occlusion#Middle Cerebral Artery Stroke#Middle Cerebral Artery Syndrome#Middle Cerebral Artery Thrombosis#Middle Cerebral Artery Thrombotic Infarction#Occlusion, Middle Cerebral Artery#Right Middle Cerebral Artery Infarction#Stroke, Middle Cerebral Artery#Thrombosis, Middle Cerebral Artery#Thrombotic Infarction, Middle Cerebral Artery"
+D007239,Infection,Infection
+D007247,"Infertility, Female","Infertility, Female#Sterility, Female#Sterility, Postpartum#Sub-Fertility, Female#Subfertility, Female"
+D007249,Inflammation,Inflammation
+D007333,Insulin Resistance,Insulin Resistance#Insulin Sensitivity
+D007410,Intestinal Diseases,Intestinal Diseases
+D020300,Intracranial Hemorrhages,"Brain Hemorrhage#Hemorrhage, Intracranial#Intracranial Hemorrhages#Posterior Fossa Hemorrhage"
+D019586,Intracranial Hypertension,Elevated ICP (Intracranial Pressure)#Elevated Intracranial Pressure#ICP (Intracranial Pressure) Elevation#ICP (Intracranial Pressure) Increase#Intracranial Hypertension#Intracranial Pressure Increase
+D007431,Intraoperative Complications,"Complication, Intraoperative#Complication, Peroperative#Injuries, Surgical#Intraoperative Complications#Peroperative Complications#Surgical Injuries"
+D007511,Ischemia,Ischemia
+D002546,"Ischemic Attack, Transient","Anterior Circulation Transient Ischemic Attack#Brain Stem Ischemia, Transient#Brain Stem Transient Ischemic Attack#Brain TIA#Brainstem Ischemia, Transient#Brainstem Transient Ischemic Attack#Carotid Circulation Transient Ischemic Attack#Cerebral Ischemia, Transient#Crescendo Transient Ischemic Attacks#Ischemic Attack, Transient#Posterior Circulation Transient Ischemic Attack#TIA (Transient Ischemic Attack)#Transient Ischemic Attack#Transient Ischemic Attack, Anterior Circulation#Transient Ischemic Attack, Brain Stem#Transient Ischemic Attack, Brainstem#Transient Ischemic Attack, Carotid Circulation#Transient Ischemic Attack, Posterior Circulation#Transient Ischemic Attack, Vertebrobasilar Circulation#Transient Ischemic Attacks, Crescendo#Vertebrobasilar Circulation Transient Ischemic Attack"
+D007565,Jaundice,"Icterus#Jaundice#Jaundice, Hemolytic"
+D041781,"Jaundice, Obstructive","Jaundice, Cholestatic#Jaundice, Mechanical#Jaundice, Obstructive"
+D007634,Keratitis,Keratitis
+D007674,Kidney Diseases,Kidney Diseases
+D007676,"Kidney Failure, Chronic","Chronic Kidney Failure#End-Stage Kidney Disease#End-Stage Renal Disease#ESRD#Kidney Failure, Chronic#Renal Disease, End-Stage#Renal Failure, Chronic#Renal Failure, End-Stage"
+D007680,Kidney Neoplasms,"Cancer of Kidney#Cancer of the Kidney#Kidney Cancer#Kidney Neoplasms#Neoplasms, Kidney#Renal Cancer#Renal Neoplasms"
+D007681,Kidney Papillary Necrosis,"Kidney Papillary Necrosis#Renal Medullary Necrosis#Renal Papillitis, Necrotizing"
+D007683,"Kidney Tubular Necrosis, Acute","Acute Kidney Tubular Necrosis#Kidney Tubular Necrosis, Acute#Lower Nephron Nephrosis"
+D007859,Learning Disorders,"Academic Disorder, Developmental#Adult Learning Disorders#Developmental Academic Disorder#Developmental Disorders of Scholastic Skills#Learning Disabilities#Learning Disorders#Learning Disorders, Adult#Learning Disturbance#Scholastic Skills Development Disorders"
+D053609,Lethargy,Lethargy
+D007938,Leukemia,Leucocythaemia#Leucocythemia#Leukemia
+D015451,"Leukemia, Lymphocytic, Chronic, B-Cell","B-Cell Chronic Lymphocytic Leukemia#B-Cell Leukemia, Chronic#B-Cell Malignancy, Low-Grade#B-Lymphocytic Leukemia, Chronic#Chronic Lymphocytic Leukemia#Diffuse Well-Differentiated Lymphocytic Lymphoma#Disrupted In B-Cell Malignancy#Leukemia, B Cell, Chronic#Leukemia, B-Cell, Chronic#Leukemia, Chronic Lymphatic#Leukemia, Chronic Lymphocytic#Leukemia, Chronic Lymphocytic, B-Cell#Leukemia, Lymphoblastic, Chronic#Leukemia, Lymphocytic, Chronic#Leukemia, Lymphocytic, Chronic, B Cell#Leukemia, Lymphocytic, Chronic, B-Cell#Lymphoblastic Leukemia, Chronic#Lymphocytic Leukemia, Chronic#Lymphocytic Leukemia, Chronic, B Cell#Lymphocytic Leukemia, Chronic, B-Cell#Lymphocytic Lymphoma#Lymphocytic Lymphoma, Diffuse, Well Differentiated#Lymphocytic Lymphoma, Diffuse, Well-Differentiated#Lymphocytic Lymphoma, Well Differentiated#Lymphocytic Lymphoma, Well-Differentiated#Lymphoma, Lymphocytic#Lymphoma, Lymphocytic, Diffuse, Well Differentiated#Lymphoma, Lymphocytic, Diffuse, Well-Differentiated#Lymphoma, Lymphocytic, Well Differentiated#Lymphoma, Lymphocytic, Well-Differentiated#Lymphoma, Lymphoplasmacytoid, CLL#Lymphoma, Small Lymphocytic#Lymphoma, Small Lymphocytic, Plasmacytoid#Lymphoma, Small-Cell#Lymphoplasmacytoid Lymphoma, CLL#Small-Cell Lymphoma"
+D007945,"Leukemia, Lymphoid","Leukemia, Lymphocytic#Leukemia, Lymphoid#Lymphocytic Leukemia#Lymphoid Leukemia"
+D015464,"Leukemia, Myelogenous, Chronic, BCR-ABL Positive","Granulocytic Leukemia, Chronic#Leukemia, Chronic Myelogenous#Leukemia, Chronic Myeloid#Leukemia, Granulocytic, Chronic#Leukemia, Myelocytic, Chronic#Leukemia, Myelogenous, Chronic#Leukemia, Myelogenous, Chronic, BCR-ABL Positive#Leukemia, Myelogenous, Ph1 Positive#Leukemia, Myelogenous, Ph1-Positive#Leukemia, Myeloid, Chronic#Leukemia, Myeloid, Ph1 Positive#Leukemia, Myeloid, Ph1-Positive#Leukemia, Myeloid, Philadelphia Positive#Leukemia, Myeloid, Philadelphia-Positive#Myelocytic Leukemia, Chronic#Myelogenous Leukemia, Chronic#Myelogenous Leukemia, Ph1-Positive#Myeloid Leukemia, Chronic#Myeloid Leukemia, Ph1-Positive#Myeloid Leukemia, Philadelphia-Positive"
+D015470,"Leukemia, Myeloid, Acute","Acute Myelogenous Leukemia#Acute Myeloid Leukemia#Acute Myeloid Leukemia with Maturation#Acute Myeloid Leukemia without Maturation#ANLL#Leukemia, Acute Myelogenous#Leukemia, Acute Myeloid#Leukemia, Myeloblastic, Acute#Leukemia, Myelocytic, Acute#Leukemia, Myelogenous, Acute#Leukemia, Myeloid, Acute#Leukemia, Myeloid, Acute, M1#Leukemia, Myeloid, Acute, M2#Leukemia, Nonlymphoblastic, Acute#Leukemia, Nonlymphocytic, Acute#Myeloblastic Leukemia, Acute#Myelocytic Leukemia, Acute#Myelogenous Leukemia, Acute#Myeloid Leukemia, Acute#Myeloid Leukemia, Acute, M1#Myeloid Leukemia, Acute, M2#Nonlymphoblastic Leukemia, Acute#Nonlymphocytic Leukemia, Acute"
+D015473,"Leukemia, Promyelocytic, Acute","Acute Promyelocytic Leukemia#AML M3#Leukemia, Acute Promyelocytic#Leukemia, Myeloid, Acute, M3#Leukemia, Progranulocytic#Leukemia, Promyelocytic, Acute#M3 ANLL#Myeloid Leukemia, Acute, M3#Progranulocytic Leukemia#Promyelocytic Leukemia, Acute"
+D007964,Leukocytosis,Leukocytosis#Pleocytosis
+D056784,Leukoencephalopathies,CACH Syndrome#CACH VWM Syndrome#Childhood Ataxia with Central Nervous System Hypomyelination#Childhood Ataxia with Central Nervous System Hypomyelinization#Childhood Ataxia with Diffuse Central Nervous System Hypomyelination#Cree Leukoencephalopathy#Leukoencephalopathies#Leukoencephalopathy#Leukoencephalopathy with Vanishing White Matter#Myelinosis Centralis Diffusa#Vanishing White Matter Leukodystrophy#White Matter Diseases
+D007970,Leukopenia,Leukocytopenia#Leukopenia
+D017880,"Limb Deformities, Congenital","Congenital Limb Deformities#Limb Deformities, Congenital"
+D008064,Lipidoses,Lipidoses#Lipidosis#Lipoidosis
+D008103,Liver Cirrhosis,"Cirrhosis, Liver#Fibrosis, Liver#Hepatic Cirrhosis#Liver Cirrhosis#Liver Fibrosis"
+D008105,"Liver Cirrhosis, Biliary","Biliary Cirrhosis#Biliary Cirrhosis, Primary#Biliary Cirrhosis, Primary, 1#Biliary Cirrhosis, Secondary#Cholangitis, Chronic Nonsuppurative Destructive#Liver Cirrhosis, Biliary#Liver Cirrhosis, Obstructive#Primary Biliary Cirrhosis#Secondary Biliary Cirrhosis"
+D008106,"Liver Cirrhosis, Experimental","Cirrhoses, Experimental Liver#Cirrhosis, Experimental Liver#Experimental Liver Cirrhoses#Experimental Liver Cirrhosis#Hepatic Cirrhosis, Experimental#Liver Cirrhoses, Experimental#Liver Cirrhosis, Experimental"
+D008107,Liver Diseases,Liver Diseases#Liver Dysfunction
+D017093,Liver Failure,Hepatic Failure#Liver Failure
+D017114,"Liver Failure, Acute","Acute Liver Failure#Fulminating Hepatic Failure#Fulminating Liver Failure#Hepatic Failure, Acute#Hepatic Failure, Fulminant#Liver Failure, Acute#Liver Failure, Fulminant"
+D008113,Liver Neoplasms,"Cancer of Liver#Cancer of the Liver#Cancer, Hepatocellular#Hepatic Cancer#Hepatic Neoplasms#Hepatocellular Cancer#Liver Cancer#Liver Neoplasms#Neoplasms, Hepatic#Neoplasms, Liver"
+D008114,"Liver Neoplasms, Experimental","Experimental Hepatoma#Experimental Hepatomas#Experimental Liver Neoplasms#Hepatoma, Experimental#Hepatoma, Morris#Hepatoma, Novikoff#Hepatomas, Experimental#Liver Neoplasms, Experimental#Neoplasms, Experimental Liver"
+D008133,Long QT Syndrome,Long QT Syndrome
+D017116,Low Back Pain,"Low Back Ache#Low Back Pain#Low Back Pain, Mechanical#Low Back Pain, Posterior Compartment#Low Back Pain, Postural#Low Back Pain, Recurrent#Low Backache#Lower Back Pain#Lumbago#Mechanical Low Back Pain#Postural Low Back Pain#Recurrent Low Back Pain"
+D008171,Lung Diseases,"Disease, Pulmonary#Diseases, Pulmonary#Lung Diseases#Pulmonary Disease#Pulmonary Diseases"
+D017563,"Lung Diseases, Interstitial","Diffuse Parenchymal Lung Diseases#Interstitial Lung Diseases#Lung Diseases, Interstitial#Pneumonia, Interstitial#Pneumonitis, Interstitial"
+D055370,Lung Injury,Chronic Lung Injury#Lung Injuries#Lung Injury#Pulmonary Injury
+D008175,Lung Neoplasms,"Cancer of Lung#Cancer of the Lung#Lung Cancer#Lung Neoplasms#Neoplasms, Lung#Neoplasms, Pulmonary#Pulmonary Cancer#Pulmonary Neoplasms"
+D008178,"Lupus Erythematosus, Cutaneous","Lupus Erythematosus, Cutaneous#Lupus Erythematosus, Cutaneous, Subacute#Lupus Erythematosus, Subacute Cutaneous"
+D008180,"Lupus Erythematosus, Systemic","Libman-Sacks Disease#Lupus Erythematosus Disseminatus#Lupus Erythematosus, Systemic#Systemic Lupus Erythematosus"
+D008206,Lymphatic Diseases,Lymphatic Diseases#Lymphatism#Status Lymphaticus
+D008223,Lymphoma,"Germinoblastoma#Lymphoma#Lymphoma, Malignant#Reticulolymphosarcoma#Sarcoma, Germinoblastic"
+D016393,"Lymphoma, B-Cell","B-Cell Lymphoma#Lymphoma, B-Cell"
+D016403,"Lymphoma, Large B-Cell, Diffuse","Diffuse Large-Cell Lymphoma#Diffuse, Large B-Cell, Lymphoma#Histiocytic Lymphoma#Histiocytic Lymphoma, Diffuse#Large Lymphoid Lymphoma, Diffuse#Large-Cell Lymphoma, Diffuse#Lymphoma, Diffuse Large-Cell#Lymphoma, Histiocytic#Lymphoma, Histiocytic, Diffuse#Lymphoma, Large B-Cell, Diffuse#Lymphoma, Large Cell, Diffuse#Lymphoma, Large Lymphoid, Diffuse#Lymphoma, Large-Cell, Diffuse"
+D008228,"Lymphoma, Non-Hodgkin","Diffuse Mixed Small and Large Cell Lymphoma#Diffuse Mixed-Cell Lymphoma#Diffuse Small Cleaved-Cell Lymphoma#Diffuse Undifferentiated Lymphoma#Lymphatic Sarcoma#Lymphoma, Atypical Diffuse Small Lymphoid#Lymphoma, Diffuse#Lymphoma, Diffuse, Mixed Lymphocytic-Histiocytic#Lymphoma, High-Grade#Lymphoma, Intermediate-Grade#Lymphoma, Low-Grade#Lymphoma, Mixed#Lymphoma, Mixed Cell, Diffuse#Lymphoma, Mixed Lymphocytic-Histiocytic#Lymphoma, Mixed Small and Large Cell, Diffuse#Lymphoma, Mixed-Cell#Lymphoma, Mixed-Cell, Diffuse#Lymphoma, Non-Hodgkin#Lymphoma, Non-Hodgkin's#Lymphoma, Non-Hodgkin, Familial#Lymphoma, Non-Hodgkins#Lymphoma, Nonhodgkin's#Lymphoma, Nonhodgkins#Lymphoma, Pleomorphic#Lymphoma, Small and Large Cleaved-Cell, Diffuse#Lymphoma, Small Cleaved Cell, Diffuse#Lymphoma, Small Cleaved-Cell, Diffuse#Lymphoma, Small Non-Cleaved-Cell#Lymphoma, Small Noncleaved-Cell#Lymphoma, Undifferentiated#Lymphoma, Undifferentiated, Diffuse#Lymphosarcoma#Mixed Small and Large Cell Lymphoma, Diffuse#Mixed-Cell Lymphoma#Mixed-Cell Lymphoma, Diffuse#Non-Hodgkin Lymphoma#Non-Hodgkin's Lymphoma#Reticulosarcoma#Reticulum Cell Sarcoma#Reticulum-Cell Sarcoma#Sarcoma, Lymphatic#Sarcoma, Reticulum-Cell#Small Cleaved-Cell Lymphoma, Diffuse#Small Non-Cleaved-Cell Lymphoma#Small Noncleaved-Cell Lymphoma#Undifferentiated Lymphoma"
+D008288,Malaria,"Infections, Plasmodium#Malaria#Marsh Fever#Paludism#Plasmodium Infections#Remittent Fever"
+D015674,"Mammary Neoplasms, Animal","Animal Mammary Carcinoma#Mammary Carcinoma, Animal#Mammary Neoplasms#Mammary Neoplasms, Animal#Neoplasms, Mammary"
+D008325,"Mammary Neoplasms, Experimental","Experimental Mammary Neoplasms#Mammary Neoplasms, Experimental#Neoplasms, Experimental Mammary"
+D047508,Massive Hepatic Necrosis,Acute Yellow Atrophy#Acute Yellow Atrophy of Liver#Massive Hepatic Necrosis
+D008545,Melanoma,Malignant Melanoma#Melanoma
+D008569,Memory Disorders,"Age-Related Memory Disorders#Memory Deficits#Memory Disorder, Semantic#Memory Disorder, Spatial#Memory Disorders#Memory Disorders, Age-Related#Memory Loss#Retention Disorders, Cognitive#Semantic Memory Disorder#Spatial Memory Disorder"
+D008581,Meningitis,Meningitis#Pachymeningitis
+D008582,"Meningitis, Aseptic","Aseptic Meningitis#Meningitis, Aseptic"
+D001523,Mental Disorders,"Behavior Disorders#Diagnosis, Psychiatric#Mental Disorders#Mental Disorders, Severe#Psychiatric Diagnosis"
+D008654,Mesothelioma,Mesothelioma
+D024821,Metabolic Syndrome X,"Dysmetabolic Syndrome X#Insulin Resistance Syndrome X#Metabolic Cardiovascular Syndrome#Metabolic Syndrome X#Metabolic X Syndrome#Reaven Syndrome X#Syndrome X, Insulin Resistance#Syndrome X, Metabolic"
+D008708,Methemoglobinemia,Methemoglobinemia
+D048629,"Micronuclei, Chromosome-Defective","Chromosome-Defective Micronuclei#Genotoxicant-Induced Micronuclei#Micronuclei, Chromosome-Defective#Micronuclei, Genotoxicant-Induced#Micronucleus, Chromosome-Defective"
+D008881,Migraine Disorders,"Abdominal Migraine#Acute Confusional Migraine#Cervical Migraine Syndrome#Headache, Migraine#Hemicrania Migraine#Migraine#Migraine Disorders#Migraine Headache#Migraine Variant#Sick Headache#Status Migrainosus"
+D015877,Miosis,"Constricted Pupil#Miosis#Miosis, Persistent#Pupillary Miosis#Small Pupil"
+D028361,Mitochondrial Diseases,"Electron Transport Chain Deficiencies, Mitochondrial#Mitochondrial Diseases#Mitochondrial Disorders#Mitochondrial Electron Transport Chain Deficiencies#Mitochondrial Respiratory Chain Deficiencies#Oxidative Phosphorylation Deficiencies#Respiratory Chain Deficiencies, Mitochondrial"
+D020422,Mononeuropathies,Mononeuritis#Mononeuritis Multiplex#Mononeuropathies#Mononeuropathy Multiplex#Mononeuropathy Multiplex Syndrome
+D019964,Mood Disorders,Affective Disorders#Mood Disorders
+D019957,Motor Skills Disorders,Developmental Coordination Disorder#Motor Skills Disorders
+D009069,Movement Disorders,Dyskinesia Syndromes#Etat Marbre#Movement Disorder Syndromes#Movement Disorders#Oral Dyskinesia#Status Marmoratus
+D052016,Mucositis,Mucositis
+D009101,Multiple Myeloma,"Kahler Disease#Multiple Myeloma#Myeloma, Multiple#Myeloma, Plasma-Cell#Myeloma-Multiple#Myelomatosis#Plasma Cell Myeloma"
+D009102,Multiple Organ Failure,"MODS#Multiple Organ Dysfunction Syndrome#Multiple Organ Failure#Organ Dysfunction Syndrome, Multiple#Organ Failure, Multiple"
+D009103,Multiple Sclerosis,"MS (Multiple Sclerosis)#Multiple Sclerosis#Multiple Sclerosis, Acute Fulminating#Sclerosis, Disseminated"
+D009120,Muscle Cramp,Cramp#Limb Cramp#Muscle Cramp#Muscular Cramp
+D009122,Muscle Hypertonia,"Hypermyotonia#Hypertonia, Detrusor Muscle#Hypertonia, Infantile#Hypertonia, Neonatal#Hypertonia, Sphincter#Hypertonia, Transient#Muscle Hypertonia#Muscle Tone Increased#Muscular Hypertonicity"
+D009123,Muscle Hypotonia,"Decreased Muscle Tone#Flaccid Muscle Tone#Floppy Muscles#Hypomyotonia#Hypotonia#Hypotony, Muscle#Muscle Flaccidity#Muscle Hypotonia#Muscle Tone Atonic#Muscle Tone Poor#Muscular Flaccidity#Muscular Hypotonia#Neonatal Hypotonia#Unilateral Hypotonia"
+D009127,Muscle Rigidity,"Catatonic Rigidity#Cogwheel Rigidity#Extensor Rigidity#Extrapyramidal Rigidity#Gegenhalten#Muscle Rigidity#Nuchal Rigidity#Rigidity, Muscular"
+D009128,Muscle Spasticity,Clasp-Knife Spasticity#Muscle Spasticity#Spastic
+D018908,Muscle Weakness,Muscle Weakness#Muscular Weakness
+D009133,Muscular Atrophy,"Atrophy, Muscle#Muscular Atrophy#Neurogenic Muscular Atrophy#Neurotrophic Muscular Atrophy"
+D009135,Muscular Diseases,Muscle Disorders#Muscular Diseases#Myopathic Conditions#Myopathies
+D009140,Musculoskeletal Diseases,Musculoskeletal Diseases#Orthopedic Disorders
+D009157,Myasthenia Gravis,"Myasthenia Gravis#Myasthenia Gravis, Generalized#Myasthenia Gravis, Ocular"
+D009190,Myelodysplastic Syndromes,Dysmyelopoietic Syndromes#Hematopoetic Myelodysplasia#Myelodysplastic Syndromes
+D009203,Myocardial Infarction,Cardiovascular Stroke#Heart Attack#Myocardial Infarct#Myocardial Infarction
+D017202,Myocardial Ischemia,"Heart Disease, Ischemic#Ischemia, Myocardial#Ischemic Heart Disease#Myocardial Ischemia"
+D015428,Myocardial Reperfusion Injury,"Injury, Myocardial Reperfusion#Myocardial Ischemic Reperfusion Injury#Myocardial Reperfusion Injury#Reperfusion Injury, Myocardial"
+D009205,Myocarditis,Carditis#Myocarditis
+D009207,Myoclonus,"Myoclonic Jerk#Myoclonic Jerking#Myoclonus#Myoclonus Simplex#Myoclonus, Action#Myoclonus, Eyelid#Myoclonus, Intention#Myoclonus, Lower Extremity#Myoclonus, Nocturnal#Myoclonus, Oculopalatal#Myoclonus, Palatal#Myoclonus, Segmental#Myoclonus, Sleep#Myoclonus, Upper Extremity#Polymyoclonus"
+D009212,Myoglobinuria,Myoglobinuria
+D009220,Myositis,"Idiopathic Inflammatory Myopathies#Idiopathic Inflammatory Myopathy#Idiopathic Inflammatory Myositis#Infectious Myositis#Inflammatory Muscle Diseases#Inflammatory Myopathies, Idiopathic#Inflammatory Myopathy#Inflammatory Myopathy, Idiopathic#Muscle Diseases, Inflammatory#Myopathies, Idiopathic Inflammatory#Myopathy, Inflammatory#Myositis#Myositis, Focal#Myositis, Infectious#Myositis, Proliferative"
+D009325,Nausea,Nausea
+D009336,Necrosis,Necrosis
+D009357,Neonatal Abstinence Syndrome,"Abstinence Syndrome, Neonatal#Neonatal Abstinence Syndrome#Neonatal Substance Withdrawal#Neonatal Withdrawal Syndrome#Passive Addiction, Neonatal#Substance Withdrawal, Neonatal"
+D009361,Neoplasm Invasiveness,"Invasiveness, Neoplasm#Neoplasm Invasion#Neoplasm Invasiveness"
+D009362,Neoplasm Metastasis,"Metastases, Neoplasm#Metastasis#Metastasis, Neoplasm#Neoplasm Metastases#Neoplasm Metastasis"
+D009369,Neoplasms,"Benign Neoplasms#Cancer#Malignancy#Neoplasia#Neoplasm#Neoplasms#Neoplasms, Benign#Tumors"
+D009374,"Neoplasms, Experimental","Experimental Neoplasms#Neoplasms, Experimental"
+D009389,"Neovascularization, Pathologic","Angiogenesis, Pathologic#Angiogenesis, Pathological#Neovascularization, Pathologic#Neovascularization, Pathological#Pathologic Angiogenesis#Pathologic Neovascularization"
+D009393,Nephritis,Nephritis
+D009395,"Nephritis, Interstitial","Interstitial Nephritis#Nephritis, Interstitial#Nephritis, Tubulointerstitial#Tubulointerstitial Nephritis"
+D009400,Nephrosclerosis,Nephrosclerosis
+D009404,Nephrotic Syndrome,Nephrotic Syndrome
+D009410,Nerve Degeneration,Nerve Degeneration#Neuron Degeneration
+D009422,Nervous System Diseases,Nervous System Diseases#Nervous System Disorders#Neurologic Disorders#Neurological Disorders
+D009421,Nervous System Malformations,"Abnormalities, Congenital, Nervous System#Abnormalities, Nervous System#Anomalies, Nervous System#Congenital Abnormalities, Nervous System#Congenital Anomalies, Nervous System#Congenital Malformations, Nervous System#Cranioschisis#Malformations, Nervous System, Congenital#Nervous System Abnormalities#Nervous System Anomalies#Nervous System Congenital Abnormalities#Nervous System Congenital Malformations#Nervous System Malformations#Nervous System Malformations, Congenital"
+D009436,Neural Tube Defects,"Acrania#Craniorachischisis#Developmental Defects, Neural Tube#Developmental Neural Tube Defects#Diastematomyelia#Exencephaly#Iniencephaly#Neural Tube Defects#Neural Tube Developmental Defects#Neurenteric Cyst#Neuroenteric Cyst#Occult Spinal Dysraphism#Occult Spinal Dysraphism Sequence#Spinal Cord Myelodysplasia#Tethered Cord Syndrome#Tethered Spinal Cord Syndrome"
+D009437,Neuralgia,"Nerve Pain#Neuralgia#Neuralgia, Atypical#Neuralgia, Iliohypogastric Nerve#Neuralgia, Ilioinguinal#Neuralgia, Perineal#Neuralgia, Stump#Neuralgia, Supraorbital#Neuralgia, Vidian#Neurodynia#Neuropathic Pain#Paroxysmal Nerve Pain"
+D019954,Neurobehavioral Manifestations,"Cognitive Manifestations#Cognitive Symptoms#Neurobehavioral Manifestations#Neurobehavioral Signs and Symptoms#Signs and Symptoms, Neurobehavioral"
+D019636,Neurodegenerative Diseases,"Degenerative Diseases, Central Nervous System#Degenerative Diseases, Nervous System#Degenerative Diseases, Neurologic#Degenerative Diseases, Spinal Cord#Degenerative Neurologic Diseases#Degenerative Neurologic Disorders#Nervous System Degenerative Diseases#Neurodegenerative Diseases#Neurodegenerative Disorders#Neurologic Degenerative Conditions#Neurologic Degenerative Diseases#Neurologic Diseases, Degenerative"
+D009459,Neuroleptic Malignant Syndrome,"Neuroleptic Malignant Syndrome#Neuroleptic-Induced Neuroleptic Malignant Syndrome#Neuroleptic-Malignant Syndrome, Neuroleptic Induced#NMS (Neuroleptic Malignant Syndrome)"
+D009461,Neurologic Manifestations,"Focal Neurologic Deficits#Manifestations, Neurologic#Manifestations, Neurological#Neurologic Deficits#Neurologic Dysfunction#Neurologic Findings#Neurologic Manifestation#Neurologic Manifestations#Neurologic Signs#Neurologic Signs and Symptoms#Neurologic Symptoms#Neurological Manifestations"
+D009468,Neuromuscular Diseases,"Amyotonia Congenita#Cramp-Fasciculation Syndrome#Fasciculation-Cramp Syndrome, Benign#Foley-Denny-Brown Syndrome#Neuromuscular Diseases#Oppenheim Disease#Oppenheim's Disease"
+D020258,Neurotoxicity Syndromes,"Encephalopathy, Toxic#Nervous System Poisoning#Neurotoxic Disorders#Neurotoxicity Syndromes#Neurotoxin Diseases#Neurotoxin Disorders#Poisoning, Nervous System#Toxic Encephalitis"
+D009503,Neutropenia,Neutropenia
+D053206,Nocturnal Enuresis,Bedwetting#Nighttime Urinary Incontinence#Nocturnal Enuresis
+D065626,Non-alcoholic Fatty Liver Disease,"Fatty Liver, Nonalcoholic#NAFLD#Non-alcoholic Fatty Liver Disease#Nonalcoholic Fatty Liver Disease#Nonalcoholic Steatohepatitis"
+D009759,"Nystagmus, Pathologic","Conjugate Nystagmus#Convergence Nystagmus#Dissociated Nystagmus#Fatigable Positional Nystagmus#Horizontal Nystagmus#Jerk Nystagmus#Multidirectional Nystagmus#Non-Fatigable Positional Nystagmus#Nystagmus, Pathologic#Pendular Nystagmus#Periodic Alternating Nystagmus#Permanent Nystagmus#Rebound Nystagmus#Retraction Nystagmus#Rotary Nystagmus#Rotational Nystagmus#See-Saw Nystagmus#Spontaneous Ocular Nystagmus#Symptomatic Nystagmus#Temporary Nystagmus#Unidirectional Nystagmus#Vertical Nystagmus"
+D009765,Obesity,Obesity
+D009771,Obsessive-Compulsive Disorder,"Anankastic Personality#Neurosis, Obsessive-Compulsive#Obsessive-Compulsive Disorder"
+D007752,"Obstetric Labor, Premature","Labor, Premature#Obstetric Labor, Premature#Premature Labor#Premature Obstetric Labor#Preterm Labor"
+D009798,Ocular Hypertension,"Glaucoma, Suspect#Hypertension, Ocular#Ocular Hypertension"
+D015835,Ocular Motility Disorders,"Brown Tendon Sheath Syndrome#Brown's Tendon Sheath Syndrome#Convergence Excess#Convergence Insufficiency#Cyclophoria#Deficiency, Smooth Pursuit#Eye Motility Disorders#Eye Movement Disorders#Internuclear Ophthalmoplegia#Ocular Motility Disorders#Ocular Torticollis#Opsoclonus#Parinaud Syndrome#Parinaud's Syndrome#Paroxysmal Ocular Dyskinesia#Pseudoophthalmoplegia#Skew Deviation#Smooth Pursuit Deficiency#Spasm of Conjugate Gaze#Syndrome, Brown's Tendon Sheath#Tendon Sheath Syndrome of Brown"
+D000857,Olfaction Disorders,Anosmia#Cacosmia#Dysosmia#Olfaction Disorders#Paraosmia#Smell Disorders
+D009845,Oligospermia,Hypospermatogenesis#Low Sperm Count#Oligoasthenoteratozoospermia#Oligospermia#Oligozoospermia
+D009846,Oliguria,Oliguria
+D009886,Ophthalmoplegia,External Ophthalmoplegia#Internal Ophthalmoplegia#Oculomotor Paralysis#Ophthalmoparesis#Ophthalmoplegia
+D009293,Opioid-Related Disorders,Narcotic Abuse#Narcotic Addiction#Narcotic Dependence#Opiate Addiction#Opiate Dependence#Opioid-Related Disorders
+D009896,Optic Atrophy,Optic Atrophy
+D009901,Optic Nerve Diseases,Cranial Nerve II Diseases#Cranial Nerve II Disorder#Foster-Kennedy Syndrome#Neural-Optical Lesion#Optic Disk Disorders#Optic Nerve Diseases#Optic Neuropathy#Second Cranial Nerve Diseases
+D019226,Oral Ulcer,Mouth Ulcer#Oral Ulcer
+D010003,Osteoarthritis,"Arthritis, Degenerative#Osteoarthritis#Osteoarthrosis#Osteoarthrosis Deformans"
+D010019,Osteomyelitis,Osteomyelitis
+D010024,Osteoporosis,"Age-Related Osteoporosis#Bone Loss, Age-Related#Osteoporosis#Osteoporosis, Age-Related#Osteoporosis, Involutional#Osteoporosis, Post-Traumatic#Osteoporosis, Senile#Senile Osteoporosis"
+D010051,Ovarian Neoplasms,"Cancer of Ovary#Cancer of the Ovary#Neoplasms, Ovarian#Ovarian Cancer#Ovarian Neoplasms#Ovary Cancer#Ovary Neoplasms"
+D010146,Pain,"Ache#Pain#Pain, Burning#Pain, Crushing#Pain, Migratory#Pain, Radiating#Pain, Splitting#Suffering, Physical"
+D010149,"Pain, Postoperative","Pain, Postoperative#Postoperative Pain"
+D010190,Pancreatic Neoplasms,"Cancer of Pancreas#Cancer of the Pancreas#Neoplasms, Pancreatic#Pancreas Cancer#Pancreas Neoplasms#Pancreatic Cancer#Pancreatic Neoplasms"
+D010195,Pancreatitis,Pancreatitis
+D010198,Pancytopenia,Pancytopenia
+D016584,Panic Disorder,Panic Attacks#Panic Disorder
+D010211,Papilledema,"Choked Disk#Decreased Intraocular Pressure-Associated Papilledema#Edema of the optic disc#Increased Intracranial Pressure-Associated Papilledema#Optic Disk Edema#Optic Nerve Papillitis#Optic Papilla Edema#Papilledema#Papilledema Associated with Decreased Intraocular Pressure#Papilledema Associated with Increased Intracranial Pressure#Papillitis#Papillitis, Optic#Retinal Edema"
+D010243,Paralysis,Palsy#Paralysis#Plegia#Todd Paralysis#Todd's Paralysis
+D010259,Paranoid Disorders,"Paranoia#Paranoid Disorders#Paranoid Psychoses#Psychoses, Paranoid"
+D010264,Paraplegia,"Paralysis, Legs#Paralysis, Lower Extremities#Paralysis, Lower Limbs#Paraplegia#Paraplegia, Ataxic#Paraplegia, Cerebral#Paraplegia, Flaccid#Paraplegia, Spastic#Paraplegia, Spinal#Spastic Paraplegia"
+D010291,Paresis,Brachial Paresis#Crural Paresis#Hemiparesis#Lower Extremity Paresis#Monoparesis#Muscle Paresis#Muscular Paresis#Paresis#Upper Extremity Paresis
+D010292,Paresthesia,"Dysesthesia#Formication#Paresthesia#Paresthesia, Distal#Paresthesia, Painful"
+D010300,Parkinson Disease,"Idiopathic Parkinson Disease#Idiopathic Parkinson's Disease#Lewy Body Parkinson Disease#Lewy Body Parkinson's Disease#Paralysis Agitans#Parkinson Disease#Parkinson Disease, Idiopathic#Parkinson's Disease#Parkinson's Disease, Idiopathic#Parkinson's Disease, Lewy Body#Primary Parkinsonism"
+D010302,"Parkinson Disease, Secondary","Atherosclerotic Parkinsonism#Parkinson Disease, Secondary#Parkinson Disease, Secondary Vascular#Parkinson Disease, Symptomatic#Parkinsonism, Secondary#Parkinsonism, Symptomatic#Secondary Parkinsonism#Secondary Vascular Parkinson Disease#Symptomatic Parkinson Disease"
+D020734,Parkinsonian Disorders,"Autosomal Dominant Juvenile Parkinson Disease#Autosomal Dominant Juvenile Parkinsonism#Autosomal Dominant Parkinsonism#Autosomal Recessive Juvenile Parkinson Disease#Autosomal Recessive Parkinsonism#Autosomal Recesssive Juvenile Parkinsonism#Chromosome 6-Linked Autosomal Recessive Parkinsonism#Experimental Parkinson Disease#Experimental Parkinsonism#Experimental Parkinsonism, MPTP-Induced#Familial Juvenile Parkinsonism#Familial Parkinson Disease, Autosomal Recessive#Juvenile Parkinson Disease#Juvenile Parkinson Disease, Autosomal Dominant#Juvenile Parkinson Disease, Autosomal Recessive#Juvenile Parkinsonism, Autosomal Dominant#Juvenile Parkinsonism, Autosomal Recessive#MPTP-Induced Experimental Parkinsonism#Parkinson Disease 2#Parkinson Disease 2, Autosomal Recessive Juvenile#Parkinson Disease Autosomal Recessive, Early Onset#Parkinson Disease, Autosomal Dominant. Juvenile#Parkinson Disease, Experimental#Parkinson Disease, Familial, Autosomal Recessive#Parkinson Disease, Juvenile#Parkinson Disease, Juvenile, Autosomal Dominant#Parkinson Disease, Juvenile, Autosomal Recessive#Parkinsonian Diseases#Parkinsonian Disorders#Parkinsonian Syndrome#Parkinsonian Syndromes#Parkinsonism#Parkinsonism, Early Onset, with Diurnal Fluctuation#Parkinsonism, Early-Onset, With Diurnal Fluctuation#Parkinsonism, Experimental#Parkinsonism, Juvenile#Parkinsonism, Juvenile, Autosomal Dominant#Parkinsonism, Juvenile, Autosomal Recessive#Ramsay Hunt Paralysis Syndrome"
+D010437,Peptic Ulcer,Gastroduodenal Ulcer#Marginal Ulcer#Peptic Ulcer
+D010490,Pericardial Effusion,Chylopericardium#Hemopericardium#Pericardial Effusion
+D010493,Pericarditis,Pericarditis#Pleuropericarditis
+D010523,Peripheral Nervous System Diseases,Peripheral Nerve Diseases#Peripheral Nervous System Disease#Peripheral Nervous System Diseases#Peripheral Nervous System Disorders#Peripheral Neuropathies#PNS (Peripheral Nervous System) Diseases#PNS Diseases
+D016491,Peripheral Vascular Diseases,"Diseases, Peripheral Vascular#Peripheral Angiopathies#Peripheral Vascular Diseases#Vascular Diseases, Peripheral"
+D010538,Peritonitis,Peritonitis#Primary Peritonitis#Secondary Peritonitis
+D010554,Personality Disorders,As If Personality#Avoidant Personality Disorder#Impulse-Ridden Personality#Inadequate Personality#Narcissistic Personality Disorder#Personality Disorders
+D010612,Pharyngitis,Pharyngitis#Sore Throat
+D010673,Pheochromocytoma,"Pheochromocytoma#Pheochromocytoma, Extra-Adrenal"
+D010689,Phlebitis,Periphlebitis#Phlebitis
+D020795,Photophobia,Light Sensitivity#Photophobia
+D010787,Photosensitivity Disorders,"Actinic Reticuloid Syndrome#Chronic Actinic Dermatitis#Dermatitis, Actinic#Photodermatitis#Photosensitivity Disorders#Photosensitization"
+D010911,Pituitary Neoplasms,Cancer of Pituitary#Cancer of the Pituitary#Pituitary Adenoma#Pituitary Cancer#Pituitary Carcinoma#Pituitary Neoplasms#Pituitary Tumors
+D010996,Pleural Effusion,Pleural Effusion
+D011014,Pneumonia,"Experimental Lung Inflammation#Lobar Pneumonia#Lung Inflammation#Pneumonia#Pneumonia, Lobar#Pneumonitis#Pulmonary Inflammation"
+D011041,Poisoning,Poisoning
+D010488,Polyarteritis Nodosa,Essential Polyarteritis#Necrotizing Arteritis#Periarteritis Nodosa#Polyarteritis Nodosa
+D017285,Polymyositis,"Myositis, Multiple#Polymyositis#Polymyositis Ossificans#Polymyositis, Idiopathic"
+D011115,Polyneuropathies,"Polyneuropathies#Polyneuropathy, Acquired#Polyneuropathy, Critical Illness#Polyneuropathy, Familial#Polyneuropathy, Inherited#Polyneuropathy, Motor"
+D011141,Polyuria,Polyuria
+D017119,Porphyria Cutanea Tarda,Porphyria Cutanea Tarda
+D054038,Posterior Leukoencephalopathy Syndrome,"Leukoencephalopathy Syndrome, Posterior#Posterior Leukoencephalopathy Syndrome#Posterior Reversible Encephalopathy Syndrome#Reversible Posterior Leukoencephalopathy Syndrome"
+D011183,Postoperative Complications,"Complication, Postoperative#Postoperative Complications"
+D020250,Postoperative Nausea and Vomiting,"Emesis, Postoperative#Nausea and Vomiting, Postoperative#Nausea, Postoperative#PONV#Postoperative Emesis#Postoperative Nausea#Postoperative Nausea and Vomiting#Postoperative Vomiting#Vomiting, Postoperative"
+D011230,Precancerous Conditions,"Condition, Preneoplastic#Conditions, Preneoplastic#Precancerous Conditions#Preneoplastic Condition#Preneoplastic Conditions"
+D054198,Precursor Cell Lymphoblastic Leukemia-Lymphoma,"Acute Lymphoid Leukemia#ALL, Childhood#Leukemia, Acute Lymphoblastic#Leukemia, Lymphoblastic#Leukemia, Lymphoblastic, Acute#Leukemia, Lymphoblastic, Acute, L1#Leukemia, Lymphoblastic, Acute, L2#Leukemia, Lymphoblastic, Acute, Philadelphia-Positive#Leukemia, Lymphocytic, Acute#Leukemia, Lymphocytic, Acute, L1#Leukemia, Lymphocytic, Acute, L2#Leukemia, Lymphoid, Acute#Lymphoblastic Leukemia#Lymphoblastic Leukemia, Acute#Lymphoblastic Leukemia, Acute, Adult#Lymphoblastic Leukemia, Acute, Childhood#Lymphoblastic Leukemia, Acute, L1#Lymphoblastic Leukemia, Acute, L2#Lymphoblastic Lymphoma#Lymphocytic Leukemia, Acute#Lymphocytic Leukemia, L1#Lymphocytic Leukemia, L2#Lymphoma, Lymphoblastic#Precursor Cell Lymphoblastic Leukemia-Lymphoma"
+D054218,Precursor T-Cell Lymphoblastic Leukemia-Lymphoma,"Leukemia, Lymphoblastic, Acute, T Cell#Leukemia, Lymphoblastic, Acute, T-Cell#Leukemia, Lymphocytic, Acute T Cell#Leukemia, Lymphocytic, Acute, T-Cell#Leukemia, T-Cell, Acute#Lymphoblastic Leukemia, Acute, T Cell#Lymphoblastic Leukemia, Acute, T-Cell#Lymphocytic Leukemia, T Cell, Acute#Lymphocytic Leukemia, T-Cell, Acute#Precursor T-Cell Lymphoblastic Leukemia#Precursor T-Cell Lymphoblastic Leukemia-Lymphoma#Precursor T-Cell Lymphoblastic Lymphoma#T-ALL#T-Cell Acute Lymphocytic Leukemia#T-Cell Leukemia, Acute#T-Lymphocytic Leukemia, Acute"
+D011248,Pregnancy Complications,"Complications, Pregnancy#Pregnancy Complications"
+D047928,Premature Birth,Premature Birth#Preterm Birth
+D011297,Prenatal Exposure Delayed Effects,"Delayed Effects, Prenatal Exposure#Late Effects, Prenatal Exposure#Prenatal Exposure Delayed Effects"
+D049188,Prenatal Injuries,"Injuries, Prenatal#Prenatal Injuries"
+D011317,Priapism,Priapism
+D011471,Prostatic Neoplasms,"Cancer of Prostate#Cancer of the Prostate#Neoplasms, Prostate#Neoplasms, Prostatic#Prostate Cancer#Prostate Neoplasms#Prostatic Cancer#Prostatic Neoplasms"
+D011507,Proteinuria,Proteinuria
+D011537,Pruritus,Itching#Pruritis#Pruritus
+D011559,Pseudotumor Cerebri,"Benign Intracranial Hypertension#Idiopathic Intracranial Hypertension#Intracranial Hypertension, Benign#Intracranial Hypertension, Idiopathic#Pseudotumor Cerebri"
+D011565,Psoriasis,Palmoplantaris Pustulosis#Psoriasis#Pustular Psoriasis of Palms and Soles#Pustulosis of Palms and Soles#Pustulosis Palmaris et Plantaris
+D011595,Psychomotor Agitation,"Agitation, Psychomotor#Akathisia#Excitement, Psychomotor#Psychomotor Agitation#Psychomotor Hyperactivity#Psychomotor Restlessness#Restlessness"
+D011596,Psychomotor Disorders,"Developmental Psychomotor Disorders#Psychomotor Disorders#Psychomotor Disorders, Developmental#Psychomotor Impairment"
+D011605,"Psychoses, Substance-Induced","Psychoses, Drug#Psychoses, Substance-Induced#Psychoses, Toxic#Substance-Induced Psychoses#Toxic Psychoses"
+D011618,Psychotic Disorders,"Psychoses#Psychosis#Psychosis, Brief Reactive#Psychotic Disorders#Schizoaffective Disorder#Schizophreniform Disorders"
+D029424,"Pulmonary Disease, Chronic Obstructive","Airflow Obstruction, Chronic#Chronic Airflow Obstruction#Chronic Obstructive Airway Disease#Chronic Obstructive Lung Disease#Chronic Obstructive Pulmonary Disease#COAD#COPD#Pulmonary Disease, Chronic Obstructive"
+D011654,Pulmonary Edema,"Edema, Pulmonary#Edemas, Pulmonary#Pulmonary Edema#Pulmonary Edemas#Wet Lung"
+D011655,Pulmonary Embolism,"Embolism, Pulmonary#Embolisms, Pulmonary#Pulmonary Embolism#Pulmonary Embolisms#Pulmonary Thromboembolism#Pulmonary Thromboembolisms#Thromboembolism, Pulmonary#Thromboembolisms, Pulmonary"
+D011658,Pulmonary Fibrosis,"Alveolitis, Fibrosing#Fibroses, Pulmonary#Fibrosis, Pulmonary#Hamman-Rich Syndrome#Pulmonary Fibroses#Pulmonary Fibrosis"
+D011693,Purpura,Petechiae#Purpura
+D011695,"Purpura, Schoenlein-Henoch","Allergic Purpura#Anaphylactoid Purpura#Henoch Purpura#Henoch Schonlein Purpura#Henoch-Schoenlein Purpura#Henoch-Schonlein Purpura#Purpura Hemorrhagica#Purpura, Nonthrombocytopenic#Purpura, Nonthrombopenic#Purpura, Schoenlein-Henoch#Purpura, Schonlein-Henoch#Rheumatoid Purpura#Schoenlein-Henoch Purpura#Vasculitis, Hemorrhagic"
+D011704,Pyelonephritis,"Necrotizing Pyelonephritis#Pyelonephritis#Pyelonephritis, Acute Necrotizing"
+D011782,Quadriplegia,"Flaccid Quadriplegia#Flaccid Tetraplegia#Locked-In Syndrome#Paralysis, Spinal, Quadriplegic#Quadriparesis#Quadriplegia#Spastic Quadriplegia#Spastic Tetraplegia#Tetraplegia"
+D011928,Raynaud Disease,"Cold Fingers, Hereditary#Raynaud Disease#Raynaud Phenomenon#Raynaud's Disease"
+D012008,Recurrence,Recrudescence#Recurrence#Relapse
+D012010,"Red-Cell Aplasia, Pure","Erythrocyte Aplasia#Pure Red-Cell Aplasia#Red-Cell Aplasia, Pure"
+D012019,Reflex Sympathetic Dystrophy,"Algodystrophic Syndrome#Algodystrophy#Cervical Sympathetic Dystrophy#Complex Regional Pain Syndrome, Type I#CPRS Type I#Pain Syndrome Type I, Complex Regional#Pain Syndrome Type I, Regional, Complex#Reflex Sympathetic Dystrophy#Reflex Sympathetic Dystrophy Syndrome#RSD (Reflex Sympathetic Dystrophy)#Shoulder-Hand Syndrome#Sudek Atrophy#Sudek's Atrophy#Sympathetic Reflex Dystrophia#Syndrome, Reflex Sympathetic Dystrophy#Type I Complex Regional Pain Syndrome"
+D012021,"Reflex, Abnormal","Abnormal Deep Tendon Reflex#Abnormal Reflex#Abnormal Reflexes#Bulbocavernosus Reflex, Decreased#Bulbocavernousus Reflex Absent#Hoffman's Reflex#Hyperreflexia#Hyporeflexia#Palmo-Mental Reflex#Reflex, Abnormal#Reflex, Absent#Reflex, Acoustic, Abnormal#Reflex, Anal, Absent#Reflex, Anal, Decreased#Reflex, Ankle, Abnormal#Reflex, Ankle, Absent#Reflex, Ankle, Decreased#Reflex, Biceps, Abnormal#Reflex, Biceps, Absent#Reflex, Biceps, Decreased#Reflex, Corneal, Absent#Reflex, Corneal, Decreased#Reflex, Decreased#Reflex, Deep Tendon, Abnormal#Reflex, Deep Tendon, Absent#Reflex, Gag, Absent#Reflex, Gag, Decreased#Reflex, Knee, Abnormal#Reflex, Knee, Decreased#Reflex, Moro, Asymmetric#Reflex, Pendular#Reflex, Triceps, Abnormal#Reflex, Triceps, Absent#Reflex, Triceps, Decreased#Reflexes, Abnormal"
+D051437,Renal Insufficiency,Kidney Failure#Kidney Insufficiency#Renal Failure#Renal Insufficiency
+D015427,Reperfusion Injury,"Injury, Ischemia-Reperfusion#Injury, Reperfusion#Ischemia-Reperfusion Injury#Reperfusion Damage#Reperfusion Injury"
+D012120,Respiration Disorders,Respiration Disorders
+D012128,"Respiratory Distress Syndrome, Adult","Acute Respiratory Distress Syndrome#Adult Respiratory Distress Syndrome#ARDS, Human#Respiratory Distress Syndrome, Acute#Respiratory Distress Syndrome, Adult#Shock Lung"
+D012131,Respiratory Insufficiency,Respiratory Depression#Respiratory Failure#Respiratory Insufficiency#Ventilatory Depression
+D012141,Respiratory Tract Infections,"Infections, Respiratory#Infections, Respiratory Tract#Infections, Upper Respiratory#Infections, Upper Respiratory Tract#Respiratory Infections#Respiratory Tract Infections#Upper Respiratory Infections#Upper Respiratory Tract Infections"
+D012148,Restless Legs Syndrome,Restless Leg Syndrome#Restless Legs#Restless Legs Syndrome#Willis Ekbom Disease#Willis Ekbom Syndrome#Willis-Ekbom Disease#Willis-Ekbom Syndrome#Wittmaack Ekbom Syndrome#Wittmaack-Ekbom Syndrome
+D012164,Retinal Diseases,Retinal Diseases
+D012206,Rhabdomyolysis,Rhabdomyolysis
+D012208,Rhabdomyosarcoma,Rhabdomyosarcoma
+D012509,Sarcoma,"Sarcoma#Sarcoma, Epithelioid#Sarcoma, Soft Tissue#Sarcoma, Spindle Cell"
+D012559,Schizophrenia,Dementia Praecox#Schizophrenia#Schizophrenic Disorders
+D012563,"Schizophrenia, Paranoid","Delusional Disorder#Paranoid Schizophrenia#Schizophrenia, Paranoid"
+D012640,Seizures,"Convulsion, Non-Epileptic#Convulsions#Convulsive Seizures#Jacksonian Seizure#Seizures#Seizures, Auditory#Seizures, Clonic#Seizures, Convulsive#Seizures, Focal#Seizures, Generalized#Seizures, Gustatory#Seizures, Motor#Seizures, Olfactory#Seizures, Sensory#Seizures, Somatosensory#Seizures, Tonic#Seizures, Tonic-Clonic#Seizures, Vertiginous#Seizures, Vestibular#Seizures, Visual"
+D012678,Sensation Disorders,Sensation Disorders#Sensory Disorders#Special Senses Disorders
+D018805,Sepsis,"Blood Poisoning#Poisoning, Blood#Pyaemia#Pyemia#Pyohemia#Sepsis#Septicemia#Severe Sepsis"
+D020230,Serotonin Syndrome,Serotonin Syndrome
+D012735,"Sexual Dysfunction, Physiological","Sex Disorders#Sexual Disorders, Physiological#Sexual Dysfunction, Physiological#Sexual Dysfunctions, Physiological"
+D020018,"Sexual Dysfunctions, Psychological","Frigidity#Hypoactive Sexual Desire Disorder#Orgasmic Disorder#Psychosexual Disorders#Psychosexual Dysfunctions#Sexual Arousal Disorder#Sexual Aversion Disorder#Sexual Dysfunctions, Psychological"
+D012769,Shock,Circulatory Collapse#Circulatory Failure#Hypovolemic Shock#Shock
+D012770,"Shock, Cardiogenic","Shock, Cardiogenic"
+D012772,"Shock, Septic","Septic Shock#Shock, Endotoxic#Shock, Septic#Shock, Toxic#Toxic Shock Syndrome"
+D012798,Sialorrhea,Drooling#Hypersalivation#Sialorrhea
+D012804,Sick Sinus Syndrome,Sick Sinus Node Syndrome#Sick Sinus Syndrome#Sinus Node Disease#Sinus Node Dysfunction
+D012817,"Signs and Symptoms, Digestive","Signs and Symptoms, Digestive"
+D012848,Sinoatrial Block,Sinoatrial Block#Sinoatrial Exit Block
+D054138,"Sinus Arrest, Cardiac","Cardiac Sinus Arrest#Cardiac Sinus Pause#Sinus Arrest, Cardiac"
+D012852,Sinusitis,Sinusitis
+D012871,Skin Diseases,Dermatoses#Dermatosis#Skin Diseases
+D012878,Skin Neoplasms,"Cancer of Skin#Cancer of the Skin#Neoplasms, Skin#Skin Cancer#Skin Neoplasms"
+D007319,Sleep Initiation and Maintenance Disorders,Chronic Insomnia#DIMS (Disorders of Initiating and Maintaining Sleep)#Disorders of Initiating and Maintaining Sleep#Early Awakening#Insomnia#Insomnia Disorder#Nonorganic Insomnia#Primary Insomnia#Psychophysiological Insomnia#Rebound Insomnia#Secondary Insomnia#Sleep Initiation and Maintenance Disorders#Sleep Initiation Dysfunction#Sleeplessness#Transient Insomnia
+D012893,Sleep Wake Disorders,Long Sleeper Syndrome#Short Sleep Phenotype#Short Sleeper Syndrome#Sleep Disorders#Sleep Wake Disorders#Sleep-Related Neurogenic Tachypnea#Subwakefullness Syndrome
+D013009,Somnambulism,Nocturnal Wandering#Sleep Walking#Sleep Walking Disorder#Sleepwalking#Somnambulism
+D013035,Spasm,"Muscle Spasm#Muscular Spasm#Spasm#Spasm, Ciliary Body#Spasm, Generalized"
+D013064,Speech Disorders,Aprosodia#Aprosodic Speech#Cluttering#Dysglossia#Dyslalia#Rhinolalia#Speech Disorders#Verbal Fluency Disorders
+D013118,Spinal Cord Diseases,Myelopathy#Spinal Cord Diseases#Spinal Cord Disorders
+D013119,Spinal Cord Injuries,"Injuries, Spinal Cord#Myelopathy, Traumatic#Post-Traumatic Myelopathy#Spinal Cord Contusion#Spinal Cord Injuries#Spinal Cord Laceration#Spinal Cord Transection#Spinal Cord Trauma"
+D013163,Splenomegaly,Enlarged Spleen#Splenomegaly
+D013203,Staphylococcal Infections,"Infections, Staphylococcal#Staphylococcal Infections"
+D013226,Status Epilepticus,"Absence Status#Complex Partial Status Epilepticus#Generalized Convulsive Status Epilepticus#Grand Mal Status Epilepticus#Non-Convulsive Status Epilepticus#Petit Mal Status#Simple Partial Status Epilepticus#Status Epilepticus#Status Epilepticus, Complex Partial#Status Epilepticus, Electrographic#Status Epilepticus, Generalized#Status Epilepticus, Generalized Convulsive#Status Epilepticus, Grand Mal#Status Epilepticus, Non-Convulsive#Status Epilepticus, Simple Partial#Status Epilepticus, Subclinical"
+D019956,Stereotypic Movement Disorder,"Body Rocking#Head Banging#Movement Disorder, Stereotypic#Stereotypic Movement Disorder"
+D013262,Stevens-Johnson Syndrome,"Drug-Induced Stevens Johnson Syndrome#Drug-Induced Stevens-Johnson Syndrome#Epidermal Necrolysis, Toxic#Lyell's Syndrome#Mycoplasma-Induced Stevens Johnson Syndrome#Mycoplasma-Induced Stevens-Johnson Syndrome#Nonstaphylococcal Scalded Skin Syndrome#Scalded Skin Syndrome, Nonstaphylococcal#Stevens Johnson Syndrome Toxic Epidermal Necrolysis#Stevens Johnson Syndrome Toxic Epidermal Necrolysis Spectrum#Stevens-Johnson Syndrome#Stevens-Johnson Syndrome Toxic Epidermal Necrolysis#Stevens-Johnson Syndrome Toxic Epidermal Necrolysis Spectrum#Toxic Epidermal Necrolysis#Toxic Epidermal Necrolysis Stevens Johnson Syndrome#Toxic Epidermal Necrolysis Stevens Johnson Syndrome Spectrum#Toxic Epidermal Necrolysis Stevens-Johnson Syndrome#Toxic Epidermal Necrolysis Stevens-Johnson Syndrome Spectrum"
+D013272,Stomach Diseases,Gastric Diseases#Stomach Diseases
+D013274,Stomach Neoplasms,"Cancer of Stomach#Cancer of the Stomach#Gastric Cancer#Gastric Cancer, Familial Diffuse#Gastric Neoplasms#Neoplasms, Gastric#Neoplasms, Stomach#Stomach Cancer#Stomach Neoplasms"
+D013276,Stomach Ulcer,Gastric Ulcer#Stomach Ulcer
+D013280,Stomatitis,"Mucositis, Oral#Oral Mucositis#Oromucositis#Stomatitis"
+D013313,"Stress Disorders, Post-Traumatic","Acute Post-Traumatic Stress Disorder#Chronic Post-Traumatic Stress Disorder#Delayed Onset Post-Traumatic Stress Disorder#Neuroses, Post-Traumatic#Neuroses, Posttraumatic#Post-Traumatic Stress Disorders#Posttraumatic Stress Disorders#PTSD#Stress Disorder, Post Traumatic#Stress Disorders, Post-Traumatic#Stress Disorders, Posttraumatic"
+D020521,Stroke,"Apoplexy#Cerebral Stroke#Cerebrovascular Accident#Cerebrovascular Accident, Acute#Cerebrovascular Apoplexy#Cerebrovascular Stroke#CVA (Cerebrovascular Accident)#Stroke#Stroke, Acute#Vascular Accident, Brain"
+D053608,Stupor,Narcosis#Stupor
+D013342,Stuttering,"Stammering#Stuttering#Stuttering, Acquired#Stuttering, Adult#Stuttering, Childhood#Stuttering, Developmental#Stuttering, Familial Persistent 1"
+D013345,Subarachnoid Hemorrhage,"Hemorrhage, Subarachnoid#Perinatal Subarachnoid Hemorrhage#SAH (Subarachnoid Hemorrhage)#Subarachnoid Hemorrhage#Subarachnoid Hemorrhage, Aneurysmal#Subarachnoid Hemorrhage, Intracranial#Subarachnoid Hemorrhage, Spontaneous"
+D013375,Substance Withdrawal Syndrome,Drug Withdrawal Symptoms#Substance Withdrawal Syndrome#Withdrawal Symptoms
+D019966,Substance-Related Disorders,"Drug Abuse#Drug Addiction#Drug Dependence#Drug Habituation#Drug Use Disorders#Organic Mental Disorders, Substance-Induced#Substance Abuse#Substance Addiction#Substance Dependence#Substance Use Disorders#Substance-Related Disorders"
+D013575,Syncope,"Drop Attack#Fainting#Presyncope#Syncopal Episode#Syncopal Vertigo#Syncope#Syncope, Cardiogenic#Syncope, Carotid Sinus#Syncope, Convulsive#Syncope, Deglutitional#Syncope, Effort#Syncope, Hyperventilation#Syncope, Micturition#Syncope, Postural#Syncope, Situational#Syncope, Stokes-Adams#Syncope, Tussive"
+D013610,Tachycardia,Tachyarrhythmia#Tachycardia
+D013614,"Tachycardia, Paroxysmal","Paroxysmal Reciprocal Tachycardia#Tachycardia, Paroxysmal"
+D013616,"Tachycardia, Sinus","Sinus Tachycardia#Tachycardia, Sinus"
+D013617,"Tachycardia, Supraventricular","Tachycardia, Supraventricular"
+D017180,"Tachycardia, Ventricular","Tachycardia, Ventricular#Ventricular Tachycardia"
+D013651,Taste Disorders,"Taste Disorder, Anterior Tongue#Taste Disorder, Posterior Tongue#Taste Disorder, Primary#Taste Disorder, Primary, Bitter#Taste Disorder, Primary, Salt#Taste Disorder, Primary, Sweet#Taste Disorder, Secondary#Taste Disorder, Secondary, Bitter#Taste Disorder, Secondary, Salt#Taste Disorder, Secondary, Sweet#Taste Disorders#Taste, Metallic"
+D013733,Testicular Diseases,Testicular Diseases
+D013736,Testicular Neoplasms,"Cancer of Testis#Cancer of the Testes#Cancer of the Testis#Neoplasms, Testicular#Neoplasms, Testis#Testicular Cancer#Testicular Neoplasms#Testicular Tumors#Testis Cancer#Testis Neoplasms#Tumor of Rete Testis"
+D013921,Thrombocytopenia,Thrombocytopenia#Thrombopenia
+D013923,Thromboembolism,Thromboembolism
+D013924,Thrombophlebitis,Phlegmasia Alba Dolens#Thrombophlebitis
+D013927,Thrombosis,Blood Clot#Thrombosis#Thrombus
+D013964,Thyroid Neoplasms,"Cancer of the Thyroid#Cancer of Thyroid#Neoplasms, Thyroid#Thyroid Adenoma#Thyroid Cancer#Thyroid Carcinoma#Thyroid Neoplasms"
+D013981,Tic Disorders,"Childhood Tic Disorders#Chronic Motor or Vocal Tic Disorder#Motor or Vocal Tic Disorder, Chronic#Motor Tic Disorders#Post-Traumatic Tic Disorder#Tic Disorder, Chronic Motor or Vocal#Tic Disorder, Post-Traumatic#Tic Disorder, Transient#Tic Disorders#Tic Disorders, Childhood#Tic Disorders, Motor#Tic Disorders, Vocal#Transient Tic Disorder#Vocal Tic Disorders"
+D014012,Tinnitus,"Pulsatile Tinnitus#Ringing-Buzzing-Tinnitus#Spontaneous Oto-Acoustic Emission Tinnitus#Tensor Palatini Induced Tinnitus#Tensor Tympani Induced Tinnitus#Tinnitus#Tinnitus of Vascular Origin#Tinnitus, Clicking#Tinnitus, Leudet#Tinnitus, Leudet's#Tinnitus, Noise Induced#Tinnitus, Objective#Tinnitus, Spontaneous Oto-Acoustic Emission#Tinnitus, Subjective#Tinnitus, Tensor Palatini Induced#Tinnitus, Tensor Tympani Induced#Vascular Origin Tinnitus"
+D016171,Torsades de Pointes,Torsade de Pointes#Torsades de Pointes
+D014103,Torticollis,"Cervical Dystonia#Spasmodic Torticollis#Torticollis#Torticollis, Intermittent#Torticollis, Psychogenic#Wryneck"
+D005879,Tourette Syndrome,"Chronic Motor and Vocal Tic Disorder#Combined Multiple Motor and Vocal Tic Disorder#Combined Vocal and Multiple Motor Tic Disorder#Gilles de la Tourette Syndrome#Gilles de la Tourette's Disease#Gilles De La Tourette's Syndrome#Multiple Motor and Vocal Tic Disorder, Combined#Tic Disorder, Combined Vocal and Multiple Motor#Tourette Disease#Tourette Disorder#Tourette Syndrome#Tourette's Disease#Tourette's Disorder#Tourette's Syndrome"
+D014202,Tremor,"Action Tremor#Coarse Tremor#Continuous Tremor#Darkness Tremor#Fine Tremor#Intention Tremor#Intermittent Tremor#Involuntary Quiver#Massive Tremor#Passive Tremor#Persistent Tremor#Pill Rolling Tremor#Rest Tremor#Resting Tremor#Saturnine Tremor#Senile Tremor#Static Tremor#Tremor#Tremor, Limb#Tremor, Muscle#Tremor, Neonatal#Tremor, Nerve#Tremor, Perioral#Tremor, Semirhythmic"
+D014456,Ulcer,Ulcer
+D014474,Unconsciousness,"Consciousness, Loss of#Unconscious State#Unconsciousness"
+D014511,Uremia,Uremia
+D001745,Urinary Bladder Diseases,Bladder Diseases#Urinary Bladder Diseases
+D001749,Urinary Bladder Neoplasms,"Bladder Cancer#Bladder Neoplasms#Bladder Tumors#Cancer of Bladder#Cancer of the Bladder#Malignant Tumor of Urinary Bladder#Neoplasms, Bladder#Urinary Bladder Cancer#Urinary Bladder Neoplasms"
+D014549,Urinary Incontinence,Urinary Incontinence
+D016055,Urinary Retention,Urinary Retention
+D014555,Urination Disorders,Urination Disorders
+D014581,Urticaria,Hives#Urticaria
+D002583,Uterine Cervical Neoplasms,"Cancer of Cervix#Cancer of the Cervix#Cancer of the Uterine Cervix#Cervical Cancer#Cervical Neoplasms#Cervix Cancer#Cervix Neoplasms#Neoplasms, Cervical#Neoplasms, Cervix#Uterine Cervical Cancer#Uterine Cervical Neoplasms"
+D014594,Uterine Neoplasms,"Cancer of the Uterus#Cancer of Uterus#Neoplasms, Uterine#Neoplasms, Uterus#Uterine Cancer#Uterine Neoplasms#Uterus Cancer#Uterus Neoplasms"
+D014652,Vascular Diseases,Vascular Diseases
+D014657,Vasculitis,Angiitis#Vasculitis
+D018366,"Vasculitis, Leukocytoclastic, Cutaneous","Allergic Cutaneous Angiitis#Allergic Cutaneous Vasculitis#Angiitis, Allergic Cutaneous#Angiitis, Hypersensitivity#Cutaneous Allergic Vasculitis#Cutaneous Leukocytoclastic Angiitis#Cutaneous Leukocytoclastic Vasculitis#Hypersensitivity Angiitis#Hypersensitivity Vasculitis#Vasculitis, Allergic Cutaneous#Vasculitis, Hypersensitivity#Vasculitis, Leukocytoclastic, Cutaneous"
+D020301,"Vasospasm, Intracranial","Angiospasm, Intracranial#Cerebral Angiospasm#Cerebral Artery Spasm#Cerebral Vasospasm#Cerebrovascular Spasm#Intracranial Angiospasm#Intracranial Vascular Spasm#Intracranial Vasospasm#Vasospasm, Intracranial"
+D054556,Venous Thromboembolism,"Thromboembolism, Venous#Venous Thromboembolism"
+D020246,Venous Thrombosis,"Deep Vein Thrombosis#Deep Venous Thrombosis#Deep-Vein Thrombosis#Deep-Venous Thrombosis#Phlebothrombosis#Thrombosis, Deep Vein#Thrombosis, Venous#Venous Thrombosis"
+D018754,Ventricular Dysfunction,Ventricular Dysfunction
+D018487,"Ventricular Dysfunction, Left","Left Ventricular Dysfunction#Ventricular Dysfunction, Left"
+D014693,Ventricular Fibrillation,Ventricular Fibrillation
+D018879,Ventricular Premature Complexes,"Extrasystole, Ventricular#Premature Ventricular Beats#Premature Ventricular Complex#Premature Ventricular Contractions#Ventricular Ectopic Beats#Ventricular Premature Complex#Ventricular Premature Complexes"
+D020257,Ventricular Remodeling,"Cardiac Remodeling, Ventricular#Left Ventricle Remodeling#Left Ventricular Remodeling#Myocardial Remodeling, Ventricular#Ventricle Remodeling#Ventricular Remodeling"
+D014717,Vertigo,"Central Nervous System Origin Vertigo#CNS Origin Vertigo#Positional Vertigo#Spinning Sensation#Vertigo#Vertigo, Brain Stem#Vertigo, Brainstem#Vertigo, Central Nervous System Origin#Vertigo, Central Origin#Vertigo, Constant#Vertigo, Essential#Vertigo, Intermittant#Vertigo, Paroxysmal#Vertigo, Peripheral#Vertigo, Subjective"
+D014786,Vision Disorders,Day Blindness#Hemeralopia#Macropsia#Metamorphopsia#Micropsia#Vision Disability#Vision Disorders#Visual Disorders#Visual Impairment
+D014839,Vomiting,Emesis#Vomiting
+D015430,Weight Gain,Weight Gain
+D015431,Weight Loss,Weight Loss#Weight Reduction
+D014987,Xerostomia,Asialia#Hyposalivation#Mouth Dryness#Xerostomia
