@@ -1,11 +1,11 @@
 import pandas as pd
 import numpy as np
 import torch
-import copy
+from sklearn.model_selection import train_test_split
 from typing import List
 import torch_geometric
-from torch.utils.data import Dataset, DataLoader
-from torch_geometric.data import Data
+from torch.utils.data import Dataset
+from torch_geometric.data import Data, Batch
 
 from utils.mol import smiles2graph
 
@@ -53,21 +53,33 @@ def create_graph_list(filename) -> List[Data]:
     return data_list
 
 
-def adj_to_edge_list(filename) -> List[List[int]]:
+def adj_to_edge_list(filename):
     pf = pd.read_csv(filename, sep=',', header=None)
     adj = pf.values
     n_drugs, n_dis = adj.shape
     edge_list = []
+    y = []
 
     for drug_id in range(n_drugs):
         for dis_id in range(n_dis):
             weight = adj[drug_id][dis_id]
             if weight != 0:
-                edge_list.append([drug_id, dis_id, 1])
+                edge_list.append([drug_id, dis_id])
+                y.append(1)
             else:
-                edge_list.append([drug_id, dis_id, 0])
+                edge_list.append([drug_id, dis_id])
+                y.append(0)
 
-    return edge_list
+    return edge_list, y
+
+
+def create_dataset(dataset_file):
+    x_dataset, y_dataset = adj_to_edge_list(dataset_file)
+    x_train, x_test, y_train, y_test = train_test_split(x_dataset, y_dataset, test_size=0.1)
+    x_train, x_valid, y_train, y_valid = train_test_split(x_train, y_train, test_size=0.22)
+
+    return {'x_train': x_train, 'y_train': y_train, 'x_valid': x_valid,
+            'y_valid': y_valid, 'x_test': x_test, 'y_test': y_test}
 
 
 class DrugDataset(torch_geometric.data.Dataset):
@@ -112,9 +124,14 @@ class DrugDataset(torch_geometric.data.Dataset):
         if isinstance(idx, int):
             data = self.get(self.indices()[idx])
             data = data if self.transform is None else self.transform(data)
+
             return data
         else:
-            return self.index_select(idx)
+            indices = self.index_select(idx)
+            chose_data_list = [self.drug_molecules[i] for i in indices]
+            batch = Batch.from_data_list(chose_data_list)
+
+            return batch
 
     def index_select(self, idx):
         indices = self.indices()
@@ -137,13 +154,11 @@ class DrugDataset(torch_geometric.data.Dataset):
                 'tensors are valid indices (got {}).'.format(
                     type(idx).__name__))
 
-        dataset = copy.copy(self)
-        dataset.__indices__ = indices
-        return dataset
+        return indices
 
 
 class MyDataset(Dataset):
-    def __init__(self, drug_sim: str, dis_sim: str, dataset: List[List[int]],
+    def __init__(self, drug_sim: str, dis_sim: str, x_dataset: List[List[int]], y_dataset: List[int],
                  transform=None, target_transform=None):
         # super().__init__(transform, target_transform)
         adj_drug = csv_to_ndarray(drug_sim)
@@ -152,17 +167,15 @@ class MyDataset(Dataset):
         self.graph_drug = adj_to_graph(adj_drug)
         self.graph_dis = adj_to_graph(adj_dis)
 
-        self.dataset = dataset
+        self.x_dataset = x_dataset
+        self.y_dataset = y_dataset
 
     def __len__(self):
-        return len(self.dataset)
+        return len(self.x_dataset)
 
     def __getitem__(self, idx):
-        drug_id, dis_id, label = self.dataset[idx]
-        sample = [drug_id, dis_id, label]
+        drug_idx, dis_idx = self.x_dataset[idx]
+        label = self.y_dataset[idx]
+        sample = {'drug_idx': drug_idx, 'dis_idx': dis_idx, 'label': label}
 
         return sample
-
-
-if __name__ == '__main__':
-    drug_dataset = DrugDataset('../data/drugs.csv')
