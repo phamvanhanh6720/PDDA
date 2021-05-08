@@ -37,7 +37,7 @@ def adj_to_graph(adj: np.ndarray):
     return graph
 
 
-def create_graph_list(filename) -> List[Data]:
+def create_graph_list(filename, device) -> List[Data]:
     """
     Convert each smiles of drug to graph.
     :return: list of Data object
@@ -47,7 +47,7 @@ def create_graph_list(filename) -> List[Data]:
     data = pf.values
     for row in data[1:]:
         smiles = row[3]
-        graph = smiles2graph(smiles)
+        graph = smiles2graph(smiles, device)
         data_list.append(graph)
 
     return data_list
@@ -83,8 +83,8 @@ def create_dataset(dataset_file):
 
 
 class DrugDataset(torch_geometric.data.Dataset):
-    def __init__(self, drugs_file, root=None, transform=None, pre_transform=None):
-        self.drug_molecules = create_graph_list(drugs_file)
+    def __init__(self, device, drugs_file, root=None, transform=None, pre_transform=None):
+        self.drug_molecules = create_graph_list(drugs_file, device)
         self.transform = transform
         self.pre_transform = pre_transform
         self.__indices__ = None
@@ -158,20 +158,15 @@ class DrugDataset(torch_geometric.data.Dataset):
 
 
 class MyDataset(Dataset):
-    def __init__(self, drug_sim: str, dis_sim: str, x_dataset: List[List[int]], y_dataset: List[int],
+    def __init__(self, device,x_dataset: List[List[int]], y_dataset: List[int],
                  transform=None, target_transform=None):
         # super().__init__(transform, target_transform)
-        adj_drug = csv_to_ndarray(drug_sim)
-        adj_dis = csv_to_ndarray(dis_sim)
 
-        self.graph_drug = adj_to_graph(adj_drug)
-        self.graph_dis = adj_to_graph(adj_dis)
-
-        self.x_dataset = x_dataset
-        self.y_dataset = y_dataset
+        self.x_dataset = torch.tensor(x_dataset, device=device, dtype=torch.long)
+        self.y_dataset = torch.tensor(y_dataset, device=device, dtype=torch.long)
 
     def __len__(self):
-        return len(self.x_dataset)
+        return self.x_dataset.size()[0]
 
     def __getitem__(self, idx):
         drug_idx, dis_idx = self.x_dataset[idx]

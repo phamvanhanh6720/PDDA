@@ -6,7 +6,7 @@ import torch
 from torch_geometric.data import Data
 
 
-def smiles2graph(smiles_string):
+def smiles2graph(smiles_string, device):
     """
     Converts SMILES string to graph Data object
     :input: SMILES string (str)
@@ -19,7 +19,7 @@ def smiles2graph(smiles_string):
     atom_features_list = []
     for atom in mol.GetAtoms():
         atom_features_list.append(atom_to_feature_vector(atom))
-    x = torch.Tensor(atom_features_list)
+    x = torch.tensor(atom_features_list, dtype=torch.long)
 
     # bonds
     num_bond_features = 3  # bond type, bond stereo, is_conjugated
@@ -42,11 +42,11 @@ def smiles2graph(smiles_string):
         edge_index = torch.LongTensor(edges_list).t().contiguous()
 
         # data.edge_attr: Edge feature matrix with shape [num_edges, num_edge_features]
-        edge_attr = torch.tensor(edge_features_list, dtype=torch.float)
+        edge_attr = torch.tensor(edge_features_list, dtype=torch.long)
 
     else:   # mol has no bonds
         edge_index = torch.empty((2, 0), dtype=torch.long)
-        edge_attr = torch.empty((0, num_bond_features), dtype= torch.float)
+        edge_attr = torch.empty((0, num_bond_features), dtype= torch.long)
 
     graph = dict()
     graph['edge_index'] = edge_index
@@ -55,6 +55,7 @@ def smiles2graph(smiles_string):
     graph['num_nodes'] = x.size()[0]
 
     data = Data(x=graph['x'], edge_index=graph['edge_index'], edge_attr=graph['edge_attr'])
+    data = data.to(device=device)
 
     return data
 

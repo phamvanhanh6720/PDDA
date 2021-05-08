@@ -76,16 +76,17 @@ class GCNGraph(torch.nn.Module):
 
 
 class Conv1DBlock(torch.nn.Module):
-    def __init__(self, in_channels, out_channels, kernel_size, stride, padding):
+    def __init__(self, in_channels, out_channels, kernel_size, stride, padding, num_features):
         super(Conv1DBlock, self).__init__()
         self.conv1d = nn.Conv1d(in_channels=in_channels, out_channels=out_channels,
                                 kernel_size=kernel_size, stride=stride, padding=padding)
         self.pool = nn.MaxPool1d(2, stride=2)
+        self.bn = nn.BatchNorm1d(num_features=num_features)
 
     def forward(self, x):
         out = self.conv1d(x)
         out = self.pool(out)
-        out = F.batch_norm(out)
+        out = self.bn(out)
         out = F.relu(out, inplace=False)
 
         return out
@@ -93,7 +94,7 @@ class Conv1DBlock(torch.nn.Module):
 
 class MyModel(torch.nn.Module):
     def __init__(self, drug_input_dim, dis_input_dim, hidden_dim, drug_output_dim,dis_output_dim,
-                 num_layers, num_layer2,dropout):
+                 num_layers, num_layer2, dropout):
         super(MyModel, self).__init__()
 
         self.drug_model = GCN(input_dim=drug_input_dim, hidden_dim=hidden_dim, output_dim=drug_output_dim,
@@ -104,25 +105,35 @@ class MyModel(torch.nn.Module):
         self.drug_molecular = GCNGraph(hidden_dim=hidden_dim, output_dim=drug_output_dim, num_layers=num_layer2,
                                        dropout=dropout)
 
-        self.conv_block_1 = Conv1DBlock(in_channels=3, out_channels=6, kernel_size=3, stride=1, padding=1)
+        self.conv_block_1 = Conv1DBlock(in_channels=3, out_channels=6,
+                                        kernel_size=3, stride=1, padding=1, num_features=6)
 
-        self.conv_block_2 = Conv1DBlock(in_channels=6, out_channels=6, kernel_size=3, stride=1, padding=1)
+        self.conv_block_2 = Conv1DBlock(in_channels=6, out_channels=6,
+                                        kernel_size=3, stride=1, padding=1, num_features=6)
         self.linear_1 = nn.Linear(in_features=192, out_features=128)
         self.linear_2 = nn.Linear(in_features=128, out_features=1)
 
-    def forward(self, drug_data: Data, dis_data: Data, batched_mol: Batch):
+    def forward(self, drug_data: Data, drug_idx, dis_data: Data, dis_idx, batched_mol: Batch):
         drug_feature_1 = self.drug_model(drug_data.x, drug_data.edge_index)
         dis_feature = self.dis_model(dis_data.x, dis_data.edge_index)
+
+        drug_feature_1 = drug_feature_1[drug_idx]
+        dis_feature = dis_feature[dis_idx]
 
         drug_feature_2 = self.drug_molecular(batched_mol)
 
         fea = torch.cat((drug_feature_1, drug_feature_2, dis_feature), dim=1)
         fea = torch.reshape(fea, (fea.size()[0], 3, -1))
 
+        # N * 3 * 128
         fea = self.conv_block_1(fea)
+        # N * 6 * 64
         fea = self.conv_block_2(fea)
-        fea = nn.Flatten(fea)
+        # N * 6 * 32
+        fea = fea.view(fea.size()[0], -1)
+        # N * 192
         fea = self.linear_1(fea)
+        # N * 128
         fea = F.relu(fea, inplace=False)
         fea = self.linear_2(fea)
 

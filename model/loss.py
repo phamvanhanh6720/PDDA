@@ -9,7 +9,7 @@ class WeightedFocalLoss(nn.Module):
         super(WeightedFocalLoss, self).__init__()
         self.device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 
-        self.alpha = torch.tensor([alpha, 1-alpha], device=device)
+        self.alpha = torch.tensor([alpha, 1-alpha], device=self.device)
         self.gamma = gamma
 
     def forward(self, inputs, targets):
