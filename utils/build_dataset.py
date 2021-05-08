@@ -1,7 +1,9 @@
 import pandas as pd
 import numpy as np
 import torch
-from typing import List, Union
+import copy
+from typing import List
+import torch_geometric
 from torch.utils.data import Dataset, DataLoader
 from torch_geometric.data import Data
 
@@ -35,9 +37,9 @@ def adj_to_graph(adj: np.ndarray):
     return graph
 
 
-def create_data_list(filename) -> List[Data]:
+def create_graph_list(filename) -> List[Data]:
     """
-    Convert each smiles fo drug to graph.
+    Convert each smiles of drug to graph.
     :return: list of Data object
     """
     data_list = []
@@ -68,17 +70,88 @@ def adj_to_edge_list(filename) -> List[List[int]]:
     return edge_list
 
 
+class DrugDataset(torch_geometric.data.Dataset):
+    def __init__(self, drugs_file, root=None, transform=None, pre_transform=None):
+        self.drug_molecules = create_graph_list(drugs_file)
+        self.transform = transform
+        self.pre_transform = pre_transform
+        self.__indices__ = None
+
+    def indices(self):
+        if self.__indices__ is not None:
+            return self.__indices__
+        else:
+            return range(len(self))
+
+    @property
+    def raw_file_names(self):
+        pass
+
+    @property
+    def processed_file_names(self):
+        pass
+
+    def download(self):
+        pass
+
+    def process(self):
+        pass
+
+    def len(self):
+        return len(self.drug_molecules)
+
+    def get(self, idx):
+        return self.drug_molecules[idx]
+
+    def __getitem__(self, idx):
+        r"""Gets the data object at index :obj:`idx` and transforms it (in case
+        a :obj:`self.transform` is given).
+        In case :obj:`idx` is a slicing object, *e.g.*, :obj:`[2:5]`, a list, a
+        tuple, a  LongTensor or a BoolTensor, will return a subset of the
+        dataset at the specified indices."""
+        if isinstance(idx, int):
+            data = self.get(self.indices()[idx])
+            data = data if self.transform is None else self.transform(data)
+            return data
+        else:
+            return self.index_select(idx)
+
+    def index_select(self, idx):
+        indices = self.indices()
+
+        if isinstance(idx, slice):
+            indices = indices[idx]
+        elif torch.is_tensor(idx):
+            if idx.dtype == torch.long:
+                if len(idx.shape) == 0:
+                    idx = idx.unsqueeze(0)
+                return self.index_select(idx.tolist())
+            elif idx.dtype == torch.bool or idx.dtype == torch.uint8:
+                return self.index_select(
+                    idx.nonzero(as_tuple=False).flatten().tolist())
+        elif isinstance(idx, list) or isinstance(idx, tuple):
+            indices = [indices[i] for i in idx]
+        else:
+            raise IndexError(
+                'Only integers, slices (`:`), list, tuples, and long or bool '
+                'tensors are valid indices (got {}).'.format(
+                    type(idx).__name__))
+
+        dataset = copy.copy(self)
+        dataset.__indices__ = indices
+        return dataset
+
+
 class MyDataset(Dataset):
-    def __init__(self, drugs_file: str, drug_sim: str, dis_sim: str, dataset: List[List[int]]
-                 , transform=None, target_transform=None):
-        #super().__init__(transform, target_transform)
+    def __init__(self, drug_sim: str, dis_sim: str, dataset: List[List[int]],
+                 transform=None, target_transform=None):
+        # super().__init__(transform, target_transform)
         adj_drug = csv_to_ndarray(drug_sim)
         adj_dis = csv_to_ndarray(dis_sim)
 
         self.graph_drug = adj_to_graph(adj_drug)
         self.graph_dis = adj_to_graph(adj_dis)
 
-        self.drug_molecules = create_data_list(drugs_file)
         self.dataset = dataset
 
     def __len__(self):
@@ -86,21 +159,10 @@ class MyDataset(Dataset):
 
     def __getitem__(self, idx):
         drug_id, dis_id, label = self.dataset[idx]
-        drug_mol = self.drug_molecules[drug_id]
-
         sample = [drug_id, dis_id, label]
 
         return sample
 
 
 if __name__ == '__main__':
-    dataset = adj_to_edge_list('../data/drug_dis.csv')
-    drug_file = '../data/drugs.csv'
-    drug_sim = '../data/drug_sim.csv'
-    dis_sim = '../data/dis_sim.csv'
-    mydataset = MyDataset(drug_file, drug_sim, dis_sim, dataset)
-    train_loader = DataLoader(mydataset, batch_size=32, shuffle=True)
-    for index, data in enumerate(train_loader):
-        print(data)
-        break
-
+    drug_dataset = DrugDataset('../data/drugs.csv')
