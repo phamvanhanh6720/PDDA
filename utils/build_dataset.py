@@ -75,8 +75,8 @@ def adj_to_edge_list(filename):
 
 def create_dataset(dataset_file):
     x_dataset, y_dataset = adj_to_edge_list(dataset_file)
-    x_train, x_test, y_train, y_test = train_test_split(x_dataset, y_dataset, test_size=0.1)
-    x_train, x_valid, y_train, y_valid = train_test_split(x_train, y_train, test_size=0.22)
+    x_train, x_test, y_train, y_test = train_test_split(x_dataset, y_dataset, test_size=0.1, random_state=42)
+    x_train, x_valid, y_train, y_valid = train_test_split(x_train, y_train, test_size=0.22, random_state=42)
 
     return {'x_train': x_train, 'y_train': y_train, 'x_valid': x_valid,
             'y_valid': y_valid, 'x_test': x_test, 'y_test': y_test}

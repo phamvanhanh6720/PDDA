@@ -4,6 +4,7 @@ import torch
 from tqdm.notebook import tqdm
 from torch_geometric.data import Data
 from torch.utils.data import DataLoader
+from sklearn.metrics import roc_curve, auc, average_precision_score
 
 from model.model import MyModel
 from utils.build_dataset import create_dataset, MyDataset, DrugDataset
@@ -16,6 +17,7 @@ class Trainer:
         self.lr = lr
         self.n_epoch = n_epoch
         self.dropout = dropout
+        self.batch_size = batch_size
         self.device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 
         # Build dataset and dataloader
@@ -47,6 +49,8 @@ class Trainer:
 
         self.optimizer = torch.optim.Adam(self.model.parameters(), lr=self.lr)
 
+        self.scheduler = torch.optim.lr_scheduler.StepLR(self.optimizer, step_size=30, gamma=0.1)
+
     def train_one_epoch(self):
         self.model.train()
         loss_train = 0
@@ -66,14 +70,16 @@ class Trainer:
             loss.backward()
             self.optimizer.step()
 
+        self.scheduler.step()
+
         return loss_train
 
     def eval_one_epoch(self, dataloader, threshold=0.5):
         self.model.eval()
         total_loss = 0
         acc = 0
-        y_pred = list()
         y_label = list()
+        y_pred = list()
         for step, batch in enumerate(dataloader):
             drug_idx = batch['drug_idx']
             dis_idx = batch['dis_idx']
@@ -85,7 +91,6 @@ class Trainer:
                 logit = self.model(self.drug_graph, drug_idx, self.dis_graph, dis_idx, self.drug_molecules[drug_idx])
                 logit = torch.squeeze(logit, dim=1)
                 pred = torch.sigmoid(logit)
-                pred = pred >= threshold
                 y_pred.append(pred.detach().cpu())
 
             loss = self.loss_fn(logit, label)
@@ -93,14 +98,16 @@ class Trainer:
 
         y_pred = torch.cat(y_pred, dim=0)
         y_label = torch.cat(y_label, dim=0)
-        acc = torch.sum(y_pred==y_label).item() / y_pred.size()[0]
-        acc = round(acc, 5)
 
-        return total_loss, acc
+        fpr, tpr, thresholds = roc_curve(y_label.detach().cpu().numpy(), y_pred.detach().cpu().numpy())
+        area_under_curve = auc(fpr, tpr)
+        ap = average_precision_score(y_label.detach().cpu().numpy(), y_pred.detach().cpu().numpy())
+
+        return total_loss / self.batch_size, area_under_curve, ap
 
     def train(self):
         best_model = None
-        best_valid_acc = 0
+        best_valid_auc = 0
         for epoch in tqdm(range(self.n_epoch)):
             print("============Epoch {}============".format(epoch+1))
             print("Training epoch {}".format(epoch+1))
@@ -110,18 +117,18 @@ class Trainer:
             train_result = self.eval_one_epoch(self.train_dataloader)
             valid_result = self.eval_one_epoch(self.valid_dataloader)
 
-            train_loss, train_acc = train_result
-            valid_loss, valid_acc = valid_result
+            train_loss, train_auc, train_ap = train_result
+            valid_loss, valid_auc, valid_ap = valid_result
 
-            if valid_acc > best_valid_acc:
-                best_valid_acc = valid_acc
+            if valid_auc > best_valid_auc:
+                best_valid_auc = valid_auc
 
-            print('Loss: {:.5f} Train Accuracy: {:.2f} Valid Accuracy: {:.2f}'.format(train_loss,
-                                                                                      train_acc*100, valid_acc*100))
+            print('Loss: {:.5f}, Train AUC: {:.4f},  Train AP: {:.4f}, Valid AUC: {:.4f}, Valid AP: {:.4f}'
+                  .format(train_loss, train_auc, train_ap, valid_auc, valid_ap))
 
 
 if __name__ == '__main__':
     trainer = Trainer('./data/drug_dis.csv', './data/drug_sim.csv', './data/dis_sim.csv', './data/drugs.csv',
-                      lr=0.001, n_epoch=30, dropout=0.2, batch_size=128)
+                      lr=0.01, n_epoch=60, dropout=0.2, batch_size=128)
     trainer.train()
 
