@@ -24,9 +24,11 @@ class Trainer:
         dataset = create_dataset(dataset_file)
         self.train_dataset = MyDataset(self.device, dataset['x_train'], dataset['y_train'])
         self.valid_dataset = MyDataset(self.device, dataset['x_valid'], dataset['y_valid'])
+        self.test_dataset = MyDataset(self.device, dataset['x_test'], dataset['y_test'])
 
         self.train_dataloader = DataLoader(self.train_dataset, batch_size=batch_size, shuffle=True)
         self.valid_dataloader = DataLoader(self.valid_dataset, batch_size=batch_size, shuffle=True)
+        self.test_dataloader = DataLoader(self.test_dataset, batch_size=batch_size, shuffle=True)
 
         drug_adj = csv_to_ndarray(drug_sim_file)
         self.drug_graph: Data = adj_to_graph(drug_adj)
@@ -41,7 +43,7 @@ class Trainer:
         # Build Model, Optimizer, Loss Function
         self.model = MyModel(drug_input_dim=self.drug_graph.num_node_features,
                              dis_input_dim=self.dis_graph.num_node_features, hidden_dim=256,
-                             drug_output_dim=128, dis_output_dim=128, num_layers=3,
+                             drug_output_dim=128, dis_output_dim=128, num_layers=4,
                              num_layer2=5, dropout=self.dropout)
         self.model = self.model.to(self.device)
 
@@ -125,6 +127,12 @@ class Trainer:
 
             print('Loss: {:.5f}, Train AUC: {:.4f},  Train AP: {:.4f}, Valid AUC: {:.4f}, Valid AP: {:.4f}'
                   .format(train_loss, train_auc, train_ap, valid_auc, valid_ap))
+
+        print("Training Done")
+        print("Evaluating on test dataset")
+        test_resul = self.eval_one_epoch(self.test_dataloader)
+        _, test_auc, test_ap = test_resul
+        print('Test AUC: {:.4f}, Valid AP: {:.4f}'.format(test_auc, test_ap))
 
 
 if __name__ == '__main__':

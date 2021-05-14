@@ -70,7 +70,8 @@ class GCNGraph(torch.nn.Module):
         embed = self.node_encoder(x)
 
         out = self.gnn_node(embed, edge_index)
-        out = global_mean_pool(out, batch)
+        # out = global_mean_pool(out, batch)
+        out = global_add_pool(out, batch)
 
         return out
 
@@ -98,7 +99,7 @@ class MyModel(torch.nn.Module):
         super(MyModel, self).__init__()
 
         self.drug_model = GCN(input_dim=drug_input_dim, hidden_dim=hidden_dim, output_dim=drug_output_dim,
-                              num_layers= num_layers, dropout=dropout, return_embeds=True)
+                              num_layers=num_layers, dropout=dropout, return_embeds=True)
         self.dis_model = GCN(input_dim=dis_input_dim, hidden_dim=hidden_dim, output_dim=dis_output_dim,
                              num_layers=num_layers, dropout=dropout, return_embeds=True)
 
@@ -110,6 +111,7 @@ class MyModel(torch.nn.Module):
 
         self.conv_block_2 = Conv1DBlock(in_channels=6, out_channels=6,
                                         kernel_size=3, stride=1, padding=1, num_features=6)
+
         self.linear_1 = nn.Linear(in_features=192, out_features=128)
         self.linear_2 = nn.Linear(in_features=128, out_features=1)
 
