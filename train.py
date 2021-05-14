@@ -47,11 +47,11 @@ class Trainer:
                              num_layer2=5, dropout=self.dropout)
         self.model = self.model.to(self.device)
 
-        self.loss_fn = WeightedFocalLoss()
+        self.loss_fn = WeightedFocalLoss(alpha=0.75)
 
         self.optimizer = torch.optim.Adam(self.model.parameters(), lr=self.lr)
 
-        self.scheduler = torch.optim.lr_scheduler.StepLR(self.optimizer, step_size=30, gamma=0.1)
+        self.scheduler = torch.optim.lr_scheduler.StepLR(self.optimizer, step_size=20, gamma=0.5)
 
     def train_one_epoch(self):
         self.model.train()
