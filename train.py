@@ -106,7 +106,7 @@ class Trainer:
         area_under_curve = auc(fpr, tpr)
         ap = average_precision_score(y_label.detach().cpu().numpy(), y_pred.detach().cpu().numpy())
 
-        return total_loss / self.batch_size, area_under_curve, ap
+        return round(total_loss / self.batch_size, 5), round(area_under_curve, 5), round(ap, 5)
 
     def train(self, filelog):
         best_model = None
@@ -139,6 +139,6 @@ class Trainer:
 
 if __name__ == '__main__':
     trainer = Trainer('./data/drug_dis.csv', './data/drug_sim.csv', './data/dis_sim.csv', './data/drugs.csv',
-                      lr=0.01, n_epoch=60, dropout=0.2, batch_size=128)
+                      lr=0.1, n_epoch=60, dropout=0.2, batch_size=128)
     trainer.train('./weight/filelog.txt')
 

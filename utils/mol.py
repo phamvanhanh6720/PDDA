@@ -46,7 +46,7 @@ def smiles2graph(smiles_string, device):
 
     else:   # mol has no bonds
         edge_index = torch.empty((2, 0), dtype=torch.long)
-        edge_attr = torch.empty((0, num_bond_features), dtype= torch.long)
+        edge_attr = torch.empty((0, num_bond_features), dtype=torch.long)
 
     graph = dict()
     graph['edge_index'] = edge_index

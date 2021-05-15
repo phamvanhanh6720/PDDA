@@ -54,9 +54,9 @@ class GAT(torch.nn.Module):
                  dropout, return_embeds=False):
         super(GAT, self).__init__()
 
-        gcn_conv_first = GATConv(in_channels=input_dim, out_channels=hidden_dim)
-        gcn_conv_last = GATConv(in_channels=hidden_dim, out_channels=output_dim)
-        gcn_conv_mid = GATConv(in_channels=hidden_dim, out_channels=hidden_dim)
+        gcn_conv_first = GATConv(in_channels=input_dim, out_channels=hidden_dim, heads=4, concat=False)
+        gcn_conv_last = GATConv(in_channels=hidden_dim, out_channels=output_dim, heads=4, concat=False)
+        gcn_conv_mid = GATConv(in_channels=hidden_dim, out_channels=hidden_dim, heads=4, concat=False)
         self.convs = torch.nn.ModuleList([gcn_conv_first]
                                          + [gcn_conv_mid for _ in range(num_layers-2)] + [gcn_conv_last])
         self.bns = torch.nn.ModuleList([torch.nn.BatchNorm1d(num_features=hidden_dim) for _ in range(num_layers - 1)])
@@ -110,8 +110,8 @@ class GCNGraph(torch.nn.Module):
         embed = self.node_encoder(x)
 
         out = self.gnn_node(embed, edge_index)
-        # out = global_mean_pool(out, batch)
-        out = global_add_pool(out, batch)
+        out = global_mean_pool(out, batch)
+        # out = global_add_pool(out, batch)
 
         return out
 
