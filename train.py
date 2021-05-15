@@ -9,6 +9,7 @@ from sklearn.metrics import roc_curve, auc, average_precision_score
 from model.model import MyModel
 from utils.build_dataset import create_dataset, MyDataset, DrugDataset
 from utils.build_dataset import adj_to_graph, csv_to_ndarray
+from utils.log import write_file
 from model.loss import WeightedFocalLoss
 
 
@@ -107,7 +108,7 @@ class Trainer:
 
         return total_loss / self.batch_size, area_under_curve, ap
 
-    def train(self):
+    def train(self, filelog):
         best_model = None
         best_valid_auc = 0
         for epoch in tqdm(range(self.n_epoch)):
@@ -125,6 +126,7 @@ class Trainer:
             if valid_auc > best_valid_auc:
                 best_valid_auc = valid_auc
 
+            write_file(filelog, epoch + 1, train_result, valid_result)
             print('Loss: {:.5f}, Train AUC: {:.4f},  Train AP: {:.4f}, Valid AUC: {:.4f}, Valid AP: {:.4f}'
                   .format(train_loss, train_auc, train_ap, valid_auc, valid_ap))
 
@@ -138,5 +140,5 @@ class Trainer:
 if __name__ == '__main__':
     trainer = Trainer('./data/drug_dis.csv', './data/drug_sim.csv', './data/dis_sim.csv', './data/drugs.csv',
                       lr=0.01, n_epoch=60, dropout=0.2, batch_size=128)
-    trainer.train()
+    trainer.train('./weight/filelog.txt')
 
