@@ -107,7 +107,7 @@ class Trainer:
             test_dataloader = DataLoader(test_dataset, batch_size=self.batch_size, shuffle=True)
 
             model = MyModel(drug_input_dim=self.drug_graph.num_node_features,
-                                 dis_input_dim=self.dis_graph.num_node_features, hidden_dim=256,
+                                 dis_input_dim=self.dis_graph.num_node_features, hidden_dim=512,
                                  drug_output_dim=128, dis_output_dim=128, num_layers=4,
                                  num_layer2=5, dropout=self.dropout)
             model = model.to(self.device)
@@ -145,5 +145,5 @@ class Trainer:
 
 if __name__ == '__main__':
     trainer = Trainer('./data/drug_dis.csv', './data/drug_sim.csv', './data/dis_sim.csv', './data/drugs.csv',
-                      lr=0.01, n_epoch=40, dropout=0.2, batch_size=128)
+                      lr=0.01, n_epoch=60, dropout=0.3, batch_size=128)
     trainer.train(base_root='./weight/5_fold_v2/')
