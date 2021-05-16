@@ -1,7 +1,7 @@
 import pandas as pd
 import numpy as np
 import torch
-from sklearn.model_selection import train_test_split
+from sklearn.model_selection import train_test_split, StratifiedKFold
 from typing import List
 import torch_geometric
 from torch.utils.data import Dataset
@@ -57,7 +57,7 @@ def adj_to_edge_list(filename):
     pf = pd.read_csv(filename, sep=',', header=None)
     adj = pf.values
     n_drugs, n_dis = adj.shape
-    edge_list = []
+    edge_list = list()
     y = []
 
     for drug_id in range(n_drugs):
@@ -70,16 +70,31 @@ def adj_to_edge_list(filename):
                 edge_list.append([drug_id, dis_id])
                 y.append(0)
 
-    return edge_list, y
+    return np.array(edge_list), np.array(y)
 
 
-def create_dataset(dataset_file):
-    x_dataset, y_dataset = adj_to_edge_list(dataset_file)
-    x_train, x_test, y_train, y_test = train_test_split(x_dataset, y_dataset, test_size=0.1, random_state=42)
-    x_train, x_valid, y_train, y_valid = train_test_split(x_train, y_train, test_size=0.22, random_state=42)
+def create_dataset(dataset_file, k_fold):
+    edge_list, y = adj_to_edge_list(dataset_file)
+    skf = StratifiedKFold(n_splits=k_fold, shuffle=True, random_state=47)
+    print(skf)
+    x_train_folds = list()
+    x_test_folds = list()
 
-    return {'x_train': x_train, 'y_train': y_train, 'x_valid': x_valid,
-            'y_valid': y_valid, 'x_test': x_test, 'y_test': y_test}
+    y_train_folds = list()
+    y_test_folds = list()
+
+    for train_idx, test_idx in skf.split(edge_list, y):
+        print("Train:", len(train_idx), "Test", len(test_idx))
+        x_train, x_test = edge_list[train_idx], edge_list[test_idx]
+        y_train, y_test = y[train_idx], y[test_idx]
+
+        x_train_folds.append(x_train)
+        y_train_folds.append(y_train)
+
+        x_test_folds.append(x_test)
+        y_test_folds.append(y_test)
+
+    return x_train_folds, y_train_folds, x_test_folds, y_test_folds
 
 
 class DrugDataset(torch_geometric.data.Dataset):
@@ -158,7 +173,7 @@ class DrugDataset(torch_geometric.data.Dataset):
 
 
 class MyDataset(Dataset):
-    def __init__(self, device,x_dataset: List[List[int]], y_dataset: List[int],
+    def __init__(self, device, x_dataset: np.ndarray, y_dataset: np.ndarray,
                  transform=None, target_transform=None):
         # super().__init__(transform, target_transform)
 

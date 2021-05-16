@@ -3,7 +3,7 @@ import torch.nn as nn
 import torch.nn.functional as F
 from torch_geometric.nn import GCNConv, GATConv
 from ogb.graphproppred.mol_encoder import AtomEncoder
-from torch_geometric.nn import global_add_pool, global_mean_pool
+from torch_geometric.nn import global_mean_pool
 from torch_geometric.data import Data, Batch
 
 
@@ -98,7 +98,7 @@ class GCNGraph(torch.nn.Module):
         # Load encoders for Atoms in molecule graphs
         self.node_encoder = AtomEncoder(hidden_dim)
 
-        self.gnn_node = GAT(hidden_dim, hidden_dim, output_dim, num_layers, dropout, return_embeds=True)
+        self.gnn_node = GCN(hidden_dim, hidden_dim, output_dim, num_layers, dropout, return_embeds=True)
 
     def reset_parameters(self):
         self.gnn_node.reset_parameters()
