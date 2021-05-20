@@ -13,7 +13,7 @@ from model.loss import WeightedFocalLoss
 
 class Trainer:
 
-    def __init__(self, dataset_file, drug_sim_file, dis_sim_file, drugs_file, lr, n_epoch, dropout,
+    def __init__(self, dataset_file, drug_sim_file, dis_sim_file, drugs_file, lr, n_epoch, dropout, alpha,
                  batch_size=128, k_fold=5):
 
         self.k_fold = k_fold
@@ -38,7 +38,7 @@ class Trainer:
         self.drug_molecules = DrugDataset(drugs_file=drugs_file, device=self.device)
 
         # Build Model, Optimizer, Loss Function
-        self.loss_fn = WeightedFocalLoss(alpha=0.75)
+        self.loss_fn = WeightedFocalLoss(alpha=alpha)
 
     def train_one_epoch(self, dataloader, model, optimizer, scheduler):
         model.train()
@@ -145,5 +145,5 @@ class Trainer:
 
 if __name__ == '__main__':
     trainer = Trainer('./data/drug_dis.csv', './data/drug_sim.csv', './data/dis_sim.csv', './data/drugs.csv',
-                      lr=0.01, n_epoch=60, dropout=0.3, batch_size=128)
+                      lr=0.01, n_epoch=60, dropout=0.3, batch_size=128, alpha=0.85)
     trainer.train(base_root='./weight/5_fold_v2/')
