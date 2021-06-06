@@ -1,0 +1,161 @@
+uniport_id,uniport_name
+P08684,Cytochrome P450 3A4
+P33261,Cytochrome P450 2C19
+P20813,Cytochrome P450 2B6
+P33260,Cytochrome P450 2C18
+P10635,Cytochrome P450 2D6
+P47989,Xanthine dehydrogenase/oxidase
+P11712,Cytochrome P450 2C9
+P05177,Cytochrome P450 1A2
+P04798,Cytochrome P450 1A1
+P05181,Cytochrome P450 2E1
+P22309,UDP-glucuronosyltransferase 1-1
+P06133,UDP-glucuronosyltransferase 2B4
+P16662,UDP-glucuronosyltransferase 2B7
+P42898,Methylenetetrahydrofolate reductase
+Q9HAW8,UDP-glucuronosyltransferase 1-10
+P35503,UDP-glucuronosyltransferase 1-3
+P22310,UDP-glucuronosyltransferase 1-4
+P19224,UDP-glucuronosyltransferase 1-6
+Q9HAW7,UDP-glucuronosyltransferase 1-7
+Q9HAW9,UDP-glucuronosyltransferase 1-8
+O60656,UDP-glucuronosyltransferase 1-9
+P54855,UDP-glucuronosyltransferase 2B15
+P00374,Dihydrofolate reductase
+Q14097,CYP2B protein
+P23141,Liver carboxylesterase 1
+P20815,Cytochrome P450 3A5
+P10632,Cytochrome P450 2C8
+P32320,Cytidine deaminase
+P27707,Deoxycytidine kinase
+O00142,"Thymidine kinase 2, mitochondrial"
+P30085,UMP-CMP kinase
+P15531,Nucleoside diphosphate kinase A
+P11511,Aromatase
+P24462,Cytochrome P450 3A7
+P23219,Prostaglandin G/H synthase 1
+Q6IPK9,Carboxylic ester hydrolase
+P52209,"6-phosphogluconate dehydrogenase, decarboxylating"
+Q16678,Cytochrome P450 1B1
+P31513,Dimethylaniline monooxygenase [N-oxide-forming] 3
+Q9HB55,Cytochrome P450 3A43
+P11509,Cytochrome P450 2A6
+P50225,Sulfotransferase 1A1
+P0DMM9,Sulfotransferase 1A3
+P11245,Arylamine N-acetyltransferase 2
+O00519,Fatty-acid amide hydrolase 1
+P09211,Glutathione S-transferase P
+P09488,Glutathione S-transferase Mu 1
+P00813,Adenosine deaminase
+P55263,Adenosine kinase
+P00568,Adenylate kinase isoenzyme 1
+P22392,Nucleoside diphosphate kinase B
+P00491,Purine nucleoside phosphorylase
+Q06278,Aldehyde oxidase
+P20711,Aromatic-L-amino-acid decarboxylase
+P27338,Amine oxidase [flavin-containing] B
+P19801,Amiloride-sensitive amine oxidase [copper-containing]
+Q9TRC7,Amiloride-sensitive amine oxidase [copper-containing]
+P51589,Cytochrome P450 2J2
+P36537,UDP-glucuronosyltransferase 2B10
+P35354,Prostaglandin G/H synthase 2
+P51580,Thiopurine S-methyltransferase
+P15104,Glutamine synthetase
+P00484,Chloramphenicol acetyltransferase 3
+P26841,Chloramphenicol acetyltransferase
+Q56148,Chloramphenicol 3-O phosphotransferase
+P06276,Cholinesterase
+Q9Y6K0,Choline/ethanolaminephosphotransferase 1
+Q9Y259,Choline/ethanolamine kinase
+P28329,Choline O-acetyltransferase
+P35790,Choline kinase alpha
+Q8NE62,"Choline dehydrogenase, mitochondrial"
+P15538,"Cytochrome P450 11B1, mitochondrial"
+Q01740,Dimethylaniline monooxygenase [N-oxide-forming] 1
+P05093,"Steroid 17-alpha-hydroxylase/17,20 lyase"
+P21589,5'-nucleotidase
+P32321,Deoxycytidylate deaminase
+P16435,NADPH--cytochrome P450 reductase
+P80365,Corticosteroid 11-beta-dehydrogenase isozyme 2
+P28845,Corticosteroid 11-beta-dehydrogenase isozyme 1
+Q02928,Cytochrome P450 4A11
+O75795,UDP-glucuronosyltransferase 2B17
+P09917,Arachidonate 5-lipoxygenase
+P14555,"Phospholipase A2, membrane associated"
+P21964,Catechol O-methyltransferase
+P05108,"Cholesterol side-chain cleavage enzyme, mitochondrial"
+P21397,Amine oxidase [flavin-containing] A
+P09172,Dopamine beta-hydroxylase
+P16152,Carbonyl reductase [NADPH] 1
+O75828,Carbonyl reductase [NADPH] 3
+P14550,Alcohol dehydrogenase [NADP(+)]
+P42330,Aldo-keto reductase family 1 member C3
+P15559,NAD(P)H dehydrogenase [quinone] 1
+P29475,"Nitric oxide synthase, brain"
+P35228,"Nitric oxide synthase, inducible"
+P29474,"Nitric oxide synthase, endothelial"
+O75306,"NADH dehydrogenase [ubiquinone] iron-sulfur protein 2, mitochondrial"
+O75489,"NADH dehydrogenase [ubiquinone] iron-sulfur protein 3, mitochondrial"
+O75251,"NADH dehydrogenase [ubiquinone] iron-sulfur protein 7, mitochondrial"
+P09210,Glutathione S-transferase A2
+P49888,Estrogen sulfotransferase
+P30711,Glutathione S-transferase theta-1
+P19971,Thymidine phosphorylase
+Q12882,Dihydropyrimidine dehydrogenase [NADP(+)]
+Q16831,Uridine phosphorylase 1
+O95045,Uridine phosphorylase 2
+P04818,Thymidylate synthase
+P11172,Uridine 5'-monophosphate synthase
+Q06203,Amidophosphoribosyltransferase
+Q92820,Gamma-glutamyl hydrolase
+P00352,Retinal dehydrogenase 1
+P19099,"Cytochrome P450 11B2, mitochondrial"
+P51857,3-oxo-5-beta-steroid 4-dehydrogenase
+P31213,3-oxo-5-alpha-steroid 4-dehydrogenase 2
+D6RB81,Alpha-methylacyl-CoA racemase
+Q9HCS2,Cytochrome P450 4F12
+P78329,Phylloquinone omega-hydroxylase CYP4F2
+Q15166,Serum paraoxonase/lactonase 3
+P46597,Acetylserotonin O-methyltransferase
+P14902,"Indoleamine 2,3-dioxygenase 1"
+P05164,Myeloperoxidase
+P31153,S-adenosylmethionine synthase isoform type-2
+Q9Y3D2,"Methionine-R-sulfoxide reductase B2, mitochondrial"
+Q00266,S-adenosylmethionine synthase isoform type-1
+Q9NZV6,Methionine-R-sulfoxide reductase B1
+Q9UJ68,Mitochondrial peptide methionine sulfoxide reductase
+P56192,"Methionine--tRNA ligase, cytoplasmic"
+Q96GW9,"Methionine--tRNA ligase, mitochondrial"
+Q9NZL9,Methionine adenosyltransferase 2 subunit beta
+Q9H2M3,S-methylmethionine--homocysteine S-methyltransferase BHMT2
+Q05932,"Folylpolyglutamate synthase, mitochondrial"
+P31939,Bifunctional purine biosynthesis protein PURH
+Q06520,Bile salt sulfotransferase
+P50226,Sulfotransferase 1A2
+P0DMN0,Sulfotransferase 1A4
+O00338,Sulfotransferase 1C2
+Q6IMI6,Sulfotransferase 1C3
+O75897,Sulfotransferase 1C4
+Q9BR01,Sulfotransferase 4A1
+Q6IMI4,Sulfotransferase 6B1
+O43704,Sulfotransferase family cytosolic 1B member 1
+P11086,Phenylethanolamine N-methyltransferase
+Q04828,Aldo-keto reductase family 1 member C1
+P52895,Aldo-keto reductase family 1 member C2
+P17516,Aldo-keto reductase family 1 member C4
+Q16850,Lanosterol 14-alpha demethylase
+Q16696,Cytochrome P450 2A13
+P13584,Cytochrome P450 4B1
+P07099,Epoxide hydrolase 1
+P50135,Histamine N-methyltransferase
+P22303,Acetylcholinesterase
+P49902,Cytosolic purine 5'-nucleotidase
+P08183,Multidrug resistance protein 1
+P48775,"Tryptophan 2,3-dioxygenase"
+Q96EY8,"Cob(I)yrinic acid a,c-diamide adenosyltransferase, mitochondrial"
+Q05599,Bifunctional adenosylcobalamin biosynthesis protein CobU
+P04183,"Thymidine kinase, cytosolic"
+P47712,Cytosolic phospholipase A2
+P00185,Cytochrome P450 1A1
+P04800,Cytochrome P450 3A1
+P05183,Cytochrome P450 3A2
