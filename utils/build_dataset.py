@@ -10,29 +10,63 @@ from torch_geometric.data import Data, Batch
 from utils.mol import smiles2graph
 
 
-def csv_to_ndarray(filepath):
+def drug_to_graph(drug_sim_path, drug_fea_path):
+    drug_sim = np.genfromtxt(drug_sim_path, delimiter=',')
+    drugs_fea = np.genfromtxt(drug_fea_path, delimiter=',')
+
+    n_drug = drug_sim.shape[0]
+
+    edges_list = []
+    nodes_fea = []
+    edges_fea = []
+
+    for u in range(n_drug):
+        nodes_fea.append(drugs_fea[u])
+        for v in range(n_drug):
+            edge_w = drug_sim[u, v]
+            if edge_w != 0:
+                edges_list.append([u, v])
+                edges_fea.append(edge_w)
+
+    nodes_feature = torch.tensor(nodes_fea, dtype=torch.float)
+    edges_index: torch.Tensor = torch.tensor(edges_list, dtype=torch.long)
+    edges_index = edges_index.t().contiguous()
+
+    edges_attr = torch.tensor(edges_fea, dtype=torch.float).reshape(-1, 1)
+
+    graph = Data(x=nodes_feature, edge_index=edges_index, edges_attr=edges_attr)
+
+    return graph
+
+
+def dis_to_graph(filepath):
     df = pd.read_csv(filepath, sep=',', header=None)
+    adj = df.values
 
-    return df.values
-
-
-def adj_to_graph(adj: np.ndarray):
     edges_list = []
     nodes_feature = []
+    edges_feature = []
     n_nodes, _ = adj.shape
+    index = 0
     for u in range(n_nodes):
-        nodes_feature.append(adj[u])
+        fea = np.zeros(n_nodes)
+        fea[index] = 1
+        nodes_feature.append(fea)
+        index += 1
+
         for v in range(n_nodes):
             weight = adj[u][v]
             if weight != 0:
                 edges_list.append([u, v])
-                edges_list.append([v, u])
+                edges_feature.append(weight)
 
     nodes_feature = torch.tensor(nodes_feature, dtype=torch.float)
     edges_index: torch.Tensor = torch.tensor(edges_list, dtype=torch.long)
     edges_index = edges_index.t().contiguous()
 
-    graph = Data(x=nodes_feature, edge_index=edges_index)
+    edges_attr = torch.tensor(edges_feature, dtype=torch.float).reshape(-1, 1)
+
+    graph = Data(x=nodes_feature, edge_index=edges_index, edges_attr=edges_attr)
 
     return graph
 
@@ -189,3 +223,10 @@ class MyDataset(Dataset):
         sample = {'drug_idx': drug_idx, 'dis_idx': dis_idx, 'label': label}
 
         return sample
+
+
+if __name__ == '__main__':
+    dis_path = '/home/phamvanhanh/PycharmProjects/PDDA/data/new_dis_sim.csv'
+    drug_fea_path = '/home/phamvanhanh/PycharmProjects/PDDA/data/drug_fea_target.csv'
+    data = dis_to_graph(dis_path)
+    print(1)

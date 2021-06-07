@@ -1,7 +1,9 @@
+from typing import Optional
+
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
-from torch_geometric.nn import GCNConv, GATConv
+from torch_geometric.nn import GCNConv
 from ogb.graphproppred.mol_encoder import AtomEncoder
 from torch_geometric.nn import global_mean_pool
 from torch_geometric.data import Data, Batch
@@ -30,60 +32,18 @@ class GCN(torch.nn.Module):
         for bn in self.bns:
             bn.reset_parameters()
 
-    def forward(self, x, edge_index):
-        out = self.convs[0](x, edge_index)
+    def forward(self, x, edge_index, edge_attr: Optional[torch.Tensor] = None):
+        out = self.convs[0](x, edge_index, edge_attr)
         out = self.bns[0](out)
         out = F.relu(out, inplace=False)
         out = F.dropout(out, self.dropout)
         for layer in range(1, len(self.convs) - 1, 1):
-            out = self.convs[layer](out, edge_index)
+            out = self.convs[layer](out, edge_index, edge_attr)
             out = self.bns[layer](out)
             out = F.relu(out, inplace=False)
             out = F.dropout(out, self.dropout)
 
-        out = self.convs[-1](out, edge_index)
-        if self.return_embeds:
-            return out
-        else:
-            out = self.softmax(out)
-            return out
-
-
-class GAT(torch.nn.Module):
-    def __init__(self, input_dim, hidden_dim, output_dim, num_layers,
-                 dropout, return_embeds=False):
-        super(GAT, self).__init__()
-
-        gcn_conv_first = GATConv(in_channels=input_dim, out_channels=hidden_dim, heads=4, concat=False)
-        gcn_conv_last = GATConv(in_channels=hidden_dim, out_channels=output_dim, heads=4, concat=False)
-        gcn_conv_mid = GATConv(in_channels=hidden_dim, out_channels=hidden_dim, heads=4, concat=False)
-        self.convs = torch.nn.ModuleList([gcn_conv_first]
-                                         + [gcn_conv_mid for _ in range(num_layers-2)] + [gcn_conv_last])
-        self.bns = torch.nn.ModuleList([torch.nn.BatchNorm1d(num_features=hidden_dim) for _ in range(num_layers - 1)])
-        self.softmax = torch.nn.LogSoftmax(dim=1)
-        self.dropout = dropout
-
-        # Skip classification layer and return node embeddings
-        self.return_embeds = return_embeds
-
-    def reset_parameters(self):
-        for conv in self.convs:
-            conv.reset_parameters()
-        for bn in self.bns:
-            bn.reset_parameters()
-
-    def forward(self, x, edge_index):
-        out = self.convs[0](x, edge_index)
-        out = self.bns[0](out)
-        out = F.relu(out, inplace=False)
-        out = F.dropout(out, self.dropout)
-        for layer in range(1, len(self.convs) - 1, 1):
-            out = self.convs[layer](out, edge_index)
-            out = self.bns[layer](out)
-            out = F.relu(out, inplace=False)
-            out = F.dropout(out, self.dropout)
-
-        out = self.convs[-1](out, edge_index)
+        out = self.convs[-1](out, edge_index, edge_attr)
         if self.return_embeds:
             return out
         else:
@@ -156,8 +116,8 @@ class MyModel(torch.nn.Module):
         self.linear_2 = nn.Linear(in_features=128, out_features=1)
 
     def forward(self, drug_data: Data, drug_idx, dis_data: Data, dis_idx, batched_mol: Batch):
-        drug_feature_1 = self.drug_model(drug_data.x, drug_data.edge_index)
-        dis_feature = self.dis_model(dis_data.x, dis_data.edge_index)
+        drug_feature_1 = self.drug_model(drug_data.x, drug_data.edge_index, drug_data.edge_attr)
+        dis_feature = self.dis_model(dis_data.x, dis_data.edge_index, dis_data.edge_attr)
 
         drug_feature_1 = drug_feature_1[drug_idx]
         dis_feature = dis_feature[dis_idx]

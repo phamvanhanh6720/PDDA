@@ -6,15 +6,15 @@ from sklearn.metrics import roc_curve, auc, average_precision_score
 
 from model.model import MyModel
 from utils.build_dataset import create_dataset, MyDataset, DrugDataset
-from utils.build_dataset import adj_to_graph, csv_to_ndarray
+from utils.build_dataset import drug_to_graph, dis_to_graph
 from utils.log import write_file
 from model.loss import WeightedFocalLoss
 
 
 class Trainer:
 
-    def __init__(self, dataset_file, drug_sim_file, dis_sim_file, drugs_file, lr, n_epoch, dropout, alpha,
-                 batch_size=128, k_fold=5):
+    def __init__(self, dataset_file, drug_sim_file, drug_fea_file, dis_sim_file, drugs_file, lr, n_epoch, dropout, alpha,
+                 batch_size=512, k_fold=5):
 
         self.k_fold = k_fold
         self.lr = lr
@@ -27,12 +27,10 @@ class Trainer:
         self.x_train_folds, self.y_train_folds, self.x_test_folds, self.y_test_folds = create_dataset(dataset_file,
                                                                                                       k_fold=5)
 
-        drug_adj = csv_to_ndarray(drug_sim_file)
-        self.drug_graph: Data = adj_to_graph(drug_adj)
+        self.drug_graph: Data = drug_to_graph(drug_sim_path=drug_sim_file, drug_fea_path=drug_fea_file)
         self.drug_graph = self.drug_graph.to(self.device)
 
-        dis_adj = csv_to_ndarray(dis_sim_file)
-        self.dis_graph: Data = adj_to_graph(dis_adj)
+        self.dis_graph: Data = dis_to_graph(dis_sim_file)
         self.dis_graph = self.dis_graph.to(self.device)
 
         self.drug_molecules = DrugDataset(drugs_file=drugs_file, device=self.device)
@@ -108,7 +106,7 @@ class Trainer:
 
             model = MyModel(drug_input_dim=self.drug_graph.num_node_features,
                                  dis_input_dim=self.dis_graph.num_node_features, hidden_dim=512,
-                                 drug_output_dim=128, dis_output_dim=128, num_layers=4,
+                                 drug_output_dim=128, dis_output_dim=128, num_layers=3,
                                  num_layer2=5, dropout=self.dropout)
             model = model.to(self.device)
 
@@ -144,6 +142,7 @@ class Trainer:
 
 
 if __name__ == '__main__':
-    trainer = Trainer('./data/drug_dis.csv', './data/drug_sim.csv', './data/dis_sim.csv', './data/drugs.csv',
-                      lr=0.01, n_epoch=60, dropout=0.3, batch_size=128, alpha=0.85)
-    trainer.train(base_root='./weight/5_fold_v2/')
+    trainer = Trainer('./data/drug_dis.csv', './data/drug_sim_target.csv', './data/drug_fea_target.csv',
+                      './data/new_dis_sim.csv', './data/drugs.csv',lr=0.01, n_epoch=40, dropout=0.25,
+                      batch_size=512, alpha=0.85)
+    trainer.train(base_root='./weight/v2/5_fold/')
