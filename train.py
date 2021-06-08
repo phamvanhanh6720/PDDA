@@ -8,7 +8,7 @@ from model.model import MyModel
 from utils.build_dataset import create_dataset, MyDataset, DrugDataset
 from utils.build_dataset import drug_to_graph, dis_to_graph
 from utils.log import write_file
-from model.loss import WeightedFocalLoss
+from model.loss import WeightedFocalLoss, WeightedBCELoss
 
 
 class Trainer:
@@ -36,7 +36,7 @@ class Trainer:
         self.drug_molecules = DrugDataset(drugs_file=drugs_file, device=self.device)
 
         # Build Model, Optimizer, Loss Function
-        self.loss_fn = WeightedFocalLoss(alpha=alpha)
+        self.loss_fn = WeightedBCELoss()
 
     def train_one_epoch(self, dataloader, model, optimizer, scheduler):
         model.train()
@@ -144,5 +144,5 @@ class Trainer:
 if __name__ == '__main__':
     trainer = Trainer('./data/drug_dis.csv', './data/drug_sim_target.csv', './data/drug_fea_target.csv',
                       './data/new_dis_sim.csv', './data/drugs.csv',lr=0.01, n_epoch=40, dropout=0.25,
-                      batch_size=512, alpha=0.85)
+                      batch_size=512, alpha=0.75)
     trainer.train(base_root='./weight/v2/5_fold/')
